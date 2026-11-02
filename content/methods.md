@@ -110,7 +110,6 @@ What to keep in mind:
 - An NPI shows that a provider registered, not that they see patients, accept new patients or work full time. Retirement does not deactivate an NPI. Counts are therefore an upper limit on practicing clinicians.
 - Provider-to-population rates built this way run higher than full-time-equivalent ratios such as those HRSA uses for [shortage designations](/glossary/hpsa). HRSA's primary care count also includes OB/GYNs and excludes nurse practitioners ([eCFR](https://www.ecfr.gov/current/title-42/chapter-I/subchapter-A/part-5/appendix-Appendix%20A%20to%20Part%205)), so the ratios are not directly comparable. See [provider-to-population ratio](/glossary/provider-to-population-ratio).
 - Providers at a PO-box-only ZIP code drop out of ZIP-level counts but are kept in county counts.
-- The free tier does not answer questions about specific providers, such as provider counts in a given area.
 
 ## Geography: counties, ZIP codes and tracts
 

@@ -96,4 +96,4 @@ Each record has separate business mailing address and business practice location
 4. Geocode practice locations, then build [provider-to-population ratios](/glossary/provider-to-population-ratio) or [drive-time measures](/glossary/drive-time-access).
 5. Label results "NPI-registered providers," not "active clinicians."
 
-[GeoChat AI](https://atlas.geochat.ai) uses the NPPES registry as a data source. Its free tier does not answer questions about specific providers, such as provider counts in an area.
+[GeoChat AI](https://atlas.geochat.ai) uses the NPPES registry as a data source. It counts each clinician under their primary taxonomy code, by county and ZIP code.

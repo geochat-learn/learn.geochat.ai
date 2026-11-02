@@ -14,7 +14,7 @@ faq:
   - q: "Does ArcGIS have an AI assistant?"
     a: "Yes. Esri lists several [AI assistants](https://www.esri.com/arcgis-blog/products/apps/geoai/whats-new-in-ai-assistants-june-2026), including a Business Analyst assistant that recommends workflows from a goal you describe. An administrator must enable AI assistants for your organization."
   - q: "Do I need GIS skills to use GeoChat AI?"
-    a: "GeoChat AI is built around a plain-language chat, so you ask questions instead of running GIS tools. Its free tier does not answer questions about specific providers, such as provider counts."
+    a: "GeoChat AI is built around a plain-language chat, so you ask questions instead of running GIS tools. You can drill into ZIP codes and compare regions."
 sources:
   - title: "Esri: Nonprofit program pricing"
     url: "https://www.esri.com/en-us/industries/nonprofit/buy"
@@ -147,12 +147,12 @@ GeoChat AI fits when you need answers about healthcare supply and demand, and yo
 - **Your program matches its use cases.** The platform offers CHNA, personal care and home health, PACE, rural health, community health worker and workforce analysis use cases.
 - **You need a no-cost start.** The [free tier](https://atlas.geochat.ai) needs no credit card or license purchase.
 - **You want expert help.** [Paid services](https://geochat.ai) cover expert review of AI findings, primary research and community interviews, custom needs assessment reports, methodology design and stakeholder presentation support.
-- **You need a map that doesn't exist yet.** Users can request a new map, and those requests shape what gets added.
+- **You need a map that doesn't exist yet.** Nonprofit organizations can request a new map, and those requests shape what gets added.
 
 ### GeoChat AI limits
 
 - It is a new platform; the current version is GeoChat Atlas (version 2).
-- The free tier does not answer questions about specific providers, such as provider counts in a given area.
+- Provider counts are NPPES registrations, not full-time clinicians, so they overstate available capacity.
 - It is not a general-purpose GIS. If you need custom network, drive-time or suitability analysis, use ArcGIS.
 
 ## Using both

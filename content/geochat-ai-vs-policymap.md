@@ -10,7 +10,7 @@ faq:
   - q: "Does PolicyMap have health data?"
     a: "Yes. Its [data sources](https://www.policymap.com/data/sources) include CDC PLACES, CDC BRFSS, HRSA, CMS, the NPPES NPI Registry and the Dartmouth Atlas. Its HRSA data includes tract-level Health Professional Shortage Areas."
   - q: "Can PolicyMap count providers by ZIP code?"
-    a: "Yes. PolicyMap's [NPPES dataset](https://policymap.com/data/sources/cms-national-plan-and-provider-enumeration-system-nppes-data) counts providers by specialty at the state and ZIP code level, last updated in April 2026. GeoChat AI's free tier does not answer provider-count questions."
+    a: "Yes. PolicyMap's [NPPES dataset](https://policymap.com/data/sources/cms-national-plan-and-provider-enumeration-system-nppes-data) counts providers by specialty at the state and ZIP code level, last updated in April 2026. GeoChat Atlas also counts NPPES providers by county and ZIP code (October 2026 file)."
   - q: "Does PolicyMap use AI?"
     a: "PolicyMap's dashboards and reports can [add AI-generated summaries](https://www.policymap.com/products/mapping-analytics), and subscribers can ask its helpbot, Pam, for help using the platform."
   - q: "Is GeoChat AI a free alternative to PolicyMap?"
@@ -91,10 +91,9 @@ The provider counts group NUCC taxonomy codes into specialties (see [NPI taxonom
 
 ## When to choose PolicyMap
 
-PolicyMap is the stronger choice when you need breadth, provider counts or analysis tools beyond a single health question.
+PolicyMap is the stronger choice when you need breadth, specialty-level provider counts or analysis tools beyond a single health question.
 
-- **You need provider counts by ZIP code.** Its [NPPES dataset](https://policymap.com/data/sources/cms-national-plan-and-provider-enumeration-system-nppes-data) answers the question GeoChat AI's free tier does not.
-- **You need federal shortage designations.** [HPSAs and MUA/Ps](https://policymap.com/data/sources/hrsa) are mapped at the tract level (see [HPSA](/glossary/hpsa) and [MUA/MUP](/glossary/mua-mup)).
+- **You need provider counts grouped by specialty.** Its [NPPES dataset](https://policymap.com/data/sources/cms-national-plan-and-provider-enumeration-system-nppes-data) groups taxonomy codes into specialties at the state and ZIP code level.
 - **You need to combine many factors.** Multi-layer maps overlay [up to five data layers](https://www.policymap.com/products/mapping-analytics) and show where conditions align.
 - **You need to map your own addresses.** The [geocoder](https://www.policymap.com/products/mapping-analytics) takes uploads and lets you review match rates and fix unmatched records.
 - **Your work goes beyond health.** Indicators span demographics, housing, education, income, employment and environment ([data](https://www.policymap.com/data)).
@@ -110,12 +109,12 @@ GeoChat AI fits when your question is specifically about healthcare supply and d
 - **Your focus is access gaps.** Its interactive maps show supply-demand gaps, provider deserts and population health patterns.
 - **Your program matches its use cases.** The platform offers CHNA, personal care and home health, PACE, rural health, community health worker and workforce analysis use cases.
 - **You want expert help.** [Paid services](https://geochat.ai) cover expert review of AI findings, primary research and community interviews, custom needs assessment reports, methodology design and stakeholder presentation support.
-- **You need a map that doesn't exist yet.** Users can request a new map, and those requests shape what gets added.
+- **You need a map that doesn't exist yet.** Nonprofit organizations can request a new map, and those requests shape what gets added.
 
 ### GeoChat AI limits
 
 - It is a new platform; the current version is GeoChat Atlas (version 2).
-- The free tier does not answer questions about specific providers, such as provider counts in a given area. PolicyMap's NPPES data covers that need.
+- Provider counts are NPPES registrations, not full-time clinicians, so they overstate available capacity.
 - Its data centers on healthcare supply and demand, built from public sources such as ACS and NPPES. PolicyMap's catalog is far broader.
 
 ## Using both
@@ -130,7 +129,7 @@ The tools can work in sequence when budget or time is tight.
 
 ## How to choose
 
-- Pick **PolicyMap** if you need provider counts, shortage-area layers, custom regions or data across housing and the economy.
+- Pick **PolicyMap** if you need specialty-level provider counts, custom regions or data across housing and the economy.
 - Pick **PolicyMap** if your organization needs data licensing, an API or a Salesforce integration.
 - Pick **GeoChat AI** if you want to explore healthcare access gaps by asking questions, at no cost.
 - Pick **GeoChat AI** if you also want paid expert help with interviews, methodology or a custom needs assessment report.

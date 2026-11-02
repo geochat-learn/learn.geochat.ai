@@ -214,7 +214,7 @@ For travel time, [QGIS](https://qgis.org/) is free and open source on Windows, M
 
 Desktop GIS such as QGIS or ArcGIS Pro is the stronger choice for joining your own surveillance or survey data to custom boundaries. For quick exploration, [GeoChat AI](https://atlas.geochat.ai) has a free tier with no credit card required. It offers interactive maps of supply-demand gaps, provider deserts, and population health patterns, built on public data such as ACS and NPPES.
 
-Its AI chat lets you drill into ZIP codes and compare regions in plain language, and you can request new maps. The free tier does not answer questions about specific providers, such as provider counts in an area, and the platform is new: the current version is GeoChat Atlas (version 2).
+Its AI chat lets you drill into ZIP codes and compare regions in plain language, and nonprofit organizations can request new maps. The platform is new: the current version is GeoChat Atlas (version 2).
 
 ### Step 4: Handle small numbers and ACS margins of error
 

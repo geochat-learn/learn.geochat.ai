@@ -117,5 +117,5 @@ Full processing steps are on the [data sources and methods](/methods/) page.
 
 1. **Cite the source and year for each figure.** Hospital CHNAs must describe the data used; see the [CHNA access-gap mapping guide](/chna-access-gap-mapping-guide/).
 2. **Confirm HPSA status before you publish.** Designations change; check the HPSA ID, type, score and status in HRSA's [HPSA Find](https://data.hrsa.gov/tools/shortage-area/hpsa-find).
-3. **Look below the county level.** Where a county shows "Part of county," map ZIP codes or tracts to find where the gaps are. In GeoChat AI you can drill into ZIP codes and compare regions. The free tier does not answer questions about provider counts.
+3. **Look below the county level.** Where a county shows "Part of county," map ZIP codes or tracts to find where the gaps are. In GeoChat AI you can drill into ZIP codes and compare regions.
 4. **Ask for another county.** If you want a county added to this table, [tell us](https://geochat.ai/about#contact).

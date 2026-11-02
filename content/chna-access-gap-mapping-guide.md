@@ -14,7 +14,7 @@ faq:
   - q: "Which geography should a hospital use to map its CHNA community?"
     a: "Patient-origin ZIP codes, converted to ZCTAs, match how hospitals track discharges and how the Census Bureau publishes ACS data. Census tracts show more detail inside a ZIP code, and counties match county-level sources such as County Health Rankings and AHRF. HPSA designations can be whole counties, parts of counties or neighborhoods, so overlay their boundaries."
   - q: "Can GeoChat AI count providers in my hospital's service area?"
-    a: "Not on the free tier, which does not answer questions about specific providers, such as provider counts in a given area. Its maps show supply-demand gaps and provider deserts built from public data such as ACS and NPPES."
+    a: "Yes, by county and ZIP code. GeoChat Atlas counts providers from the NPPES registry (October 2026 file); counts are registrations, not full-time clinicians. Its maps also show supply-demand gaps and provider deserts built from public data such as ACS and NPPES."
 sources:
   - title: "IRS: Consequences of non-compliance with Section 501(r)"
     url: "https://www.irs.gov/charities-non-profits/consequence-of-non-compliance-with-section-501r"
@@ -149,7 +149,7 @@ Label NPPES counts as headcounts, because HPSA criteria use [full-time-equivalen
 
 [GeoChat AI](https://atlas.geochat.ai) is one option for a first pass, with a free tier and no credit card required. It maps supply-demand gaps and provider deserts from public data such as ACS and NPPES. Its AI chat lets you drill into ZIP codes.
 
-The free tier does not answer questions about specific providers, such as provider counts in an area, and the platform is new: the current version is GeoChat Atlas (version 2).
+Its provider counts are NPPES registrations, not full-time clinicians, and the platform is new: the current version is GeoChat Atlas (version 2).
 
 ### Step 4: Measure access
 

@@ -1,6 +1,6 @@
 ---
 title: "GeoChat AI: Frequently Asked Questions"
-description: "Answers about GeoChat AI: cost, data sources, who it is for, free-tier limits, requesting new maps and expert validation."
+description: "Answers about GeoChat AI: cost, data sources, provider counts, who it is for, requesting new maps and expert validation."
 slug: faq
 type: page
 show_cta: true
@@ -20,10 +20,10 @@ faq:
     a: "No. The chat has no web search and is instructed to report only figures returned by its queries of the platform's datasets. This is an instruction to the model, not a guarantee, so check figures against the map and the original source before you report them."
   - q: "Who is GeoChat AI for?"
     a: "Teams working on community health needs assessments, rural health, PACE, personal care and home health, community health worker programs and workforce analysis."
-  - q: "Does the free tier answer questions about specific providers?"
-    a: "No. The free tier does not answer questions about specific providers, such as provider counts in a given area."
+  - q: "Can GeoChat AI count providers in an area?"
+    a: "Yes. GeoChat Atlas counts providers by county and ZIP code from the NPPES registry (October 2026 file). Counts are registrations, not full-time clinicians. See [data sources and methods](/methods/)."
   - q: "What if the map I need isn't there?"
-    a: "Request a new map from inside the platform. Requests shape which maps are added next."
+    a: "Nonprofit organizations can request a new map from inside the platform. Requests shape which maps are added next."
   - q: "Can I use GeoChat AI in a hospital CHNA?"
     a: "You can use its maps as part of your analysis. The IRS requires the CHNA report to describe the data and other information used ([IRS](https://www.irs.gov/charities-non-profits/community-health-needs-assessment-for-charitable-hospital-organizations-section-501r3)). See the [CHNA access-gap mapping guide](/chna-access-gap-mapping-guide/)."
   - q: "Is GeoChat AI still being developed?"

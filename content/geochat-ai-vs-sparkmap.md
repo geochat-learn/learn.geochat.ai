@@ -12,7 +12,7 @@ faq:
   - q: "Can SparkMap make ZIP code level CHNA reports?"
     a: "Yes, on a paid plan. ZIP reports come with annual Premium subscriptions ([$4,999 per year](https://sparkmap.org/pricing/) as of November 2026) and can be added to quarterly Premium plans."
   - q: "Can GeoChat AI count the providers in my service area?"
-    a: "Not on the free tier. GeoChat AI's free tier does not answer questions about specific providers, such as provider counts in a given area."
+    a: "Yes, by county and ZIP code. GeoChat Atlas counts providers from the NPPES registry (October 2026 file). Counts are registrations, not full-time clinicians."
   - q: "Which tool is better for a hospital CHNA?"
     a: "SparkMap is built for standard indicator reports with state benchmarks and Word or Excel export. GeoChat AI fits the access-gap part of the work, where you ask follow-up questions about supply and demand. Many teams can use both."
 sources:
@@ -124,12 +124,12 @@ GeoChat AI fits when your question is specifically about healthcare supply and d
 - **Your program matches its use cases.** The platform offers CHNA, personal care and home health, PACE, rural health, community health worker and workforce analysis use cases.
 - **You need a no-cost start.** The [free tier](https://atlas.geochat.ai) needs no credit card.
 - **You want expert help.** [Paid services](https://geochat.ai) cover expert review of AI findings, primary research and community interviews, custom needs assessment reports, methodology design and stakeholder presentation support.
-- **You need a map that doesn't exist yet.** Users can request a new map, and those requests shape what gets added.
+- **You need a map that doesn't exist yet.** Nonprofit organizations can request a new map, and those requests shape what gets added.
 
 ### GeoChat AI limits
 
 - It is a new platform; the current version is GeoChat Atlas (version 2).
-- The free tier does not answer questions about specific providers, such as provider counts in a given area.
+- Provider counts are NPPES registrations, not full-time clinicians, so they overstate available capacity.
 - Its data centers on healthcare supply and demand, built from public sources such as ACS and NPPES. For housing, crime or environmental indicators, SparkMap covers far more ground.
 
 ## Using both
@@ -146,7 +146,7 @@ The two tools cover different parts of the same assessment, so they work well to
 
 - Pick **SparkMap** if your deliverable is a standard indicator report with benchmarks, or you need Word and Excel exports.
 - Pick **GeoChat AI** if your deliverable is an access-gap analysis and your team would rather ask questions than build reports.
-- If you need provider counts by area, GeoChat AI's free tier will not answer that. Check [SparkMap's indicator list](https://sparkmap.org/indicator-list/) for the plan you are considering.
+- If you need provider counts by area, GeoChat Atlas counts NPPES registrations by county and ZIP code. Check [SparkMap's indicator list](https://sparkmap.org/indicator-list/) for what each SparkMap plan includes.
 - With no budget, start with both free options. SparkMap's free account covers [a single county with PDF export](https://sparkmap.org/pricing/), and GeoChat AI's free tier needs no credit card.
 - Test each tool on your own service area before paying. To discuss GeoChat AI's expert services, [book a call](https://calendly.com/v-wong-geochat/30min).
 
