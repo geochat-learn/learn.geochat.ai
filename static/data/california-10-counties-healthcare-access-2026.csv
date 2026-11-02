@@ -1,0 +1,11 @@
+county,state,county_fips,adults_65_plus,pct_65_plus,pct_uninsured_all_ages,pct_uninsured_65_plus,primary_care_physicians_per_10k,primary_care_nps_per_10k,primary_care_hpsa_coverage,primary_care_hpsa_highest_score,mental_health_hpsa_coverage,notes
+Los Angeles County,CA,06037,1487700,15.2,8.2,1.6,11.2,6.4,Part of county,18,Part of county,
+San Diego County,CA,06073,507734,15.4,6.4,0.9,12.5,6.7,Part of county,17,Part of county,
+Riverside County,CA,06065,382888,15.4,7.7,1.1,7.4,4.6,Part of county,16,Part of county,
+Sacramento County,CA,06067,243370,15.3,4.9,0.7,12.0,5.6,Part of county,16,Part of county,Only geographic/population primary care HPSA is proposed for withdrawal
+Alameda County,CA,06001,254161,15.4,4.0,1.0,13.7,5.0,Facilities only,,Part of county,Only mental health HPSA is proposed for withdrawal
+Fresno County,CA,06019,131488,12.9,6.7,1.2,10.0,6.6,Part of county,19,Part of county,
+Kern County,CA,06029,108560,11.9,7.8,1.1,7.0,6.0,Part of county,19,Entire county,Highest primary care score (19) is proposed for withdrawal; highest fully designated score is 18
+Tulare County,CA,06107,57101,11.9,8.1,1.3,7.2,5.7,Entire county,17,Entire county,
+Imperial County,CA,06025,24701,13.7,6.0,0.9,4.1,7.3,Entire county,15,Entire county,
+Humboldt County,CA,06023,26660,19.8,4.9,0.1,10.6,8.3,Entire county,16,Entire county,pct_uninsured_65_plus unreliable: estimate 28 people with margin of error +/-28

@@ -1,0 +1,55 @@
+name: Build and publish learn.geochat.ai
+
+on:
+  push:
+    branches: [main]
+    paths: ["content/**", "static/**", "build.py", "CNAME", "indexnow.key"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown pyyaml
+      - run: python3 build.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    continue-on-error: true   # fails harmlessly until learn.geochat.ai DNS is live
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tell Bing (IndexNow) which pages exist or changed
+        run: |
+          KEY=$(cat indexnow.key)
+          URLS=$(curl -s https://learn.geochat.ai/sitemap.xml | grep -o '<loc>[^<]*' | sed 's/<loc>//' | head -1000 | python3 -c 'import sys,json; print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')
+          curl -s -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            -d "{\"host\":\"learn.geochat.ai\",\"key\":\"$KEY\",\"keyLocation\":\"https://learn.geochat.ai/$KEY.txt\",\"urlList\":$URLS}" \
+            -w "IndexNow HTTP %{http_code}\n"

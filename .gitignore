@@ -1,0 +1,15 @@
+# Internal working files (kept out of the public repo)
+internal/
+BRIEF.md
+outreach/
+tracker/
+preview/
+preview.py
+.github/workflows/ai-visibility-tracker.yml
+# Build output
+dist/
+build/
+templates/
+__pycache__/
+*.pyc
+.DS_Store
