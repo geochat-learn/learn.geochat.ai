@@ -12,6 +12,8 @@ faq:
     a: "It uses public, open data. Population figures come from Census Bureau ACS 2020–2024 5-year estimates, with race and ethnicity from the 2020 Census. Provider counts come from the NPPES registry (October 2026 file). GeoChat Atlas also has more than 100 layers from CMS, HRSA, CDC and other public sources. See [data sources and methods](/methods/)."
   - q: "What is GeoChat Atlas?"
     a: "GeoChat Atlas, at [atlas.geochat.ai](https://atlas.geochat.ai), is version 2 of GeoChat AI's mapping platform. It replaces the earlier app at app.geochat.ai."
+  - q: "Is GeoChat AI related to other projects called GeoChat?"
+    a: "No. GeoChat AI, the healthcare access mapping platform at geochat.ai, is not affiliated with GeoChat, the remote-sensing vision-language model from MBZUAI, or GeoChat, the messaging tool from InSTEDD."
   - q: "How often is the data updated?"
     a: "There is no automatic refresh. Each source is updated by hand after its publisher releases a new version. The versions in use are listed on the [methods page](/methods/)."
   - q: "Which areas does GeoChat AI cover?"

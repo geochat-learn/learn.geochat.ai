@@ -128,6 +128,7 @@ def org_ld():
         "name": ORG_NAME,
         "url": HOME_URL,
         "sameAs": ["https://www.youtube.com/@geochatai"],
+        "disambiguatingDescription": "Healthcare access mapping platform for community health assessments; not affiliated with the MBZUAI GeoChat remote-sensing model or the InSTEDD GeoChat messaging tool.",
     }
 
 
@@ -143,6 +144,7 @@ def app_ld():
         "softwareVersion": "2",
         "description": "Free AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies.",
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "disambiguatingDescription": "Healthcare access mapping platform for community health assessments; not affiliated with the MBZUAI GeoChat remote-sensing model or the InSTEDD GeoChat messaging tool.",
         "publisher": {"@id": f"{HOME_URL}/#organization"},
     }
 
