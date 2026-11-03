@@ -10,11 +10,11 @@ faq:
   - q: "How does a PACE organization expand its service area?"
     a: "It files a service area expansion application with CMS in HPMS, with a signed State assurance that the state will amend its PACE program agreement. CMS and the State administering agency must both approve the change, and only after the organization has passed its first trial period audit."
   - q: "Where can I find PACE enrollment data?"
-    a: "CMS's monthly Contract/Plan/State/County (CPSC) enrollment file includes 'National PACE' contracts, with enrollment by county. Counts of 10 or fewer are left blank. Some states, such as California, also publish PACE service-area ZIP code lists."
+    a: "CMS's monthly Contract/Plan/State/County (CPSC) enrollment file includes 'National PACE' contracts, with enrollment by county. Small counts are [shown as * (10 or fewer)](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07). Some states, such as California, also publish PACE service-area ZIP code lists."
   - q: "How do you estimate the number of people eligible for PACE in an area?"
-    a: "No public dataset counts people who meet a state's nursing-home level of care. Analysts build a proxy from ACS self-care difficulty (table B18106) and age (table B01001), then label it as a proxy, not a count of eligible people."
+    a: "Only the State administering agency makes the level-of-care finding ([§460.150(b)(2)](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-E/part-460/subpart-I)), so you can only map proxies. Analysts build one from ACS self-care difficulty (table B18106) and age (table B01001), then label it as a proxy, not a count of eligible people."
   - q: "Does GeoChat AI have PACE data?"
-    a: "Yes. GeoChat Atlas includes PACE sites, PACE coverage by county and PACE service ZIP codes, plus estimates of people who may be eligible for PACE built from ACS self-care difficulty for ages 55 and over. These estimates are proxies: they do not check nursing-home level of care or PACE service areas."
+    a: "Yes, as of November 2026. GeoChat Atlas includes PACE sites, PACE coverage by county and PACE service ZIP codes, plus estimates of people who may be eligible for PACE built from ACS self-care difficulty for ages 55 and over. These estimates are proxies: they do not check nursing-home level of care or PACE service areas."
 sources:
   - title: "PACE | Medicare.gov"
     url: "https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options/other-medicare-health-plans/pace"
@@ -46,7 +46,10 @@ sources:
   - title: "Programs of All-Inclusive Care for the Elderly for States - Medicaid.gov"
     url: "https://www.medicaid.gov/medicaid/long-term-services-supports/pace/programs-of-all-inclusive-care-for-elderly-for-states/index.html"
     accessed: 2026-11-03
-  - title: "CMS memo: Policies Related to Expanding Access to PACE in Rural Areas, July 22, 2026 (copy posted by LeadingAge)"
+  - title: "HPMS Memos for WK 4 July 20-24 (2026) - CMS (zip holds 2026_PACE_Rural_Memo_072226.pdf, Policies Related to Expanding Access to PACE in Rural Areas, July 22, 2026)"
+    url: "https://www.cms.gov/about-cms/information-systems/hpms/hpms-memos-archive-weekly/hpms-memos-wk-4-july-20-24"
+    accessed: 2026-11-03
+  - title: "CMS memo: Policies Related to Expanding Access to PACE in Rural Areas, July 22, 2026 (LeadingAge copy)"
     url: "https://leadingage.org/wp-content/uploads/2026/07/2026-PACE-Rural-Memo_072226.pdf"
     accessed: 2026-11-03
   - title: "Medicare Advantage/Part D Contract and Enrollment Data - CMS"
@@ -55,10 +58,13 @@ sources:
   - title: "Monthly Enrollment by Contract/Plan/State/County - CMS"
     url: "https://cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county"
     accessed: 2026-11-03
-  - title: "Monthly Enrollment by CPSC 2026-07 - CMS (release page; file readme lists 'National PACE' and the 10-or-fewer suppression rule)"
+  - title: "Monthly Enrollment by CPSC 2026-07 - CMS (release page; zip readme lists 'National PACE' and '* = 10 or less')"
     url: "https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07"
     accessed: 2026-11-03
-  - title: "MMCO Statistical & Analytic Reports - CMS (Medicare-Medicaid dual enrollment snapshots)"
+  - title: "MA Contract Service Area 2026-10 - CMS (release page; zip file lists every 'National PACE' contract as 'Covers the entire US, all States and Counties')"
+    url: "https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/ma-contract-service-area-state/county/ma-contract-service-area-2026-10"
+    accessed: 2026-11-03
+  - title: "MMCO Statistical & Analytic Reports - CMS (Medicare-Medicaid dual enrollment snapshots; workbook notes 'Cell sizes of 1-10 are suppressed')"
     url: "https://www.cms.gov/data-research/research/statistical-resources-dually-eligible-beneficiaries/mmco-statistical-analytic-reports"
     accessed: 2026-11-03
   - title: "Census Data API: ACS 2024 5-year, group B18106 (Sex by Age by Self-Care Difficulty)"
@@ -104,7 +110,7 @@ sources:
     url: "https://www.dhcs.ca.gov/individuals/Pages/PACEPlans.aspx"
     accessed: 2026-11-03
   - title: "California PACE Plans County Zip Codes, July 2026 - DHCS"
-    url: "https://www.dhcs.ca.gov/ko/file/website-zip-code-tracker/"
+    url: "https://www.dhcs.ca.gov/file/website-zip-code-tracker/"
     accessed: 2026-11-03
   - title: "DHCS PACE Policy Letter 23-01: Application Process (April 14, 2023)"
     url: "https://www.dhcs.ca.gov/services/ltc/Documents/PL-23-01-Application-Process-DHCS.pdf"
@@ -132,7 +138,7 @@ Federal eligibility rules sit in [42 CFR §460.150](https://www.ecfr.gov/current
 | Rule in §460.150 | What it requires | What it means for your map |
 |---|---|---|
 | (b)(1) Age | 55 or older | Count residents 55 and over. |
-| (b)(2) Level of care | The State administering agency finds the person needs nursing facility level of care under the state Medicaid plan | No public dataset measures this. You can only map proxies. |
+| (b)(2) Level of care | The State administering agency finds the person needs nursing facility level of care under the state Medicaid plan | Only the State administering agency makes this finding ([§460.150(b)(2)](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-E/part-460/subpart-I)), so you can only map proxies. |
 | (b)(3) Residence | Lives in the PACE organization's service area | Map approved service areas before you count anyone. |
 | (c) Community safety | Can live in a community setting without jeopardizing health or safety, using state criteria in the program agreement | Your pool is people living in the community. |
 | (d) Coverage | Medicare or Medicaid entitlement is not required | Do not limit the pool to dual-eligible people. |
@@ -149,25 +155,27 @@ A PACE organization must run [at least one PACE center in, or contiguous to, its
 
 ### The federal expansion process
 
-1. **Get state approval first.** The organization must get approval from both the [State Medicaid agency and the State administering agency](https://www.medicaid.gov/medicaid/long-term-services-supports/pace/programs-of-all-inclusive-care-for-elderly-for-states/index.html). Without a signed State assurance, CMS treats the application as [incomplete and will not evaluate it](https://www.law.cornell.edu/cfr/text/42/460.12).
+1. **Get state approval first.** The organization must get approval from both the [State Medicaid agency and the State Administering Agency (SAA)](https://www.medicaid.gov/medicaid/long-term-services-supports/pace/programs-of-all-inclusive-care-for-elderly-for-states/index.html). Without a signed State assurance, CMS treats the application as [incomplete and will not evaluate it](https://www.law.cornell.edu/cfr/text/42/460.12).
 2. **Apply in HPMS.** CMS says applicants complete [both initial and service area expansion applications in HPMS](https://www.cms.gov/medicare/medicaid-coordination/pace). The application must [describe the proposed service area](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-E/part-460/subpart-B).
 3. **Meet the timing rules.** CMS and the state approve expansions [only after the first trial period audit](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-E/part-460/subpart-B) and any required corrective action plan. CMS has [45 days to act on a service area expansion or a new center, and 90 days for both together](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-E/part-460/subpart-B). Acting means approving, denying or asking for more information.
 4. **Pass a readiness review for new sites.** For a new center, [the SAA conducts a readiness review of the new site](https://www.medicaid.gov/medicaid/long-term-services-supports/pace/programs-of-all-inclusive-care-for-elderly-for-states/index.html) while the review clock is stopped.
 5. **Amend Appendix C.** If CMS approves, [Appendix C of the program agreement is amended](https://www.medicaid.gov/medicaid/long-term-services-supports/pace/programs-of-all-inclusive-care-for-elderly-for-states/index.html) to show the new area or site.
 
-CMS, in consultation with the state, [may exclude an area already covered by another PACE program agreement](https://www.law.cornell.edu/cfr/text/42/460.12). CMS accepts applications on quarterly deadlines. Its [July 22, 2026 rural PACE memo](https://leadingage.org/wp-content/uploads/2026/07/2026-PACE-Rural-Memo_072226.pdf) points to a January 15, 2026 HPMS memo for the 2026 dates. The National PACE Association's [application process page](https://npaonline.org/starting-expanding-a-pace-program/application-process) summarizes these steps (NPA guidance, not regulation).
+CMS, in consultation with the state, [may exclude an area already covered by another PACE program agreement](https://www.law.cornell.edu/cfr/text/42/460.12). The National PACE Association's [application process page](https://npaonline.org/starting-expanding-a-pace-program/application-process) summarizes these steps (NPA guidance, not regulation).
+
+[CMS accepts applications on quarterly deadlines](https://www.cms.gov/about-cms/information-systems/hpms/hpms-memos-archive-weekly/hpms-memos-wk-4-july-20-24). Its [July 22, 2026 rural PACE memo](https://www.cms.gov/about-cms/information-systems/hpms/hpms-memos-archive-weekly/hpms-memos-wk-4-july-20-24) points to a January 15, 2026 HPMS memo for the 2026 dates. The memo is in the zip file on that CMS page ([LeadingAge copy](https://leadingage.org/wp-content/uploads/2026/07/2026-PACE-Rural-Memo_072226.pdf)).
 
 ## Public data for PACE expansion planning
 
 | Data | Publisher | Geography | Use it for | Watch for |
 |---|---|---|---|---|
-| [Monthly Enrollment by Contract/Plan/State/County (CPSC)](https://cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county) | CMS | County | Enrollment of each "National PACE" contract | Counts of 10 or fewer are blank |
-| [PACE service-area ZIP list](https://www.dhcs.ca.gov/ko/file/website-zip-code-tracker/) (California example) | State Medicaid agency | ZIP code | Current approved service areas | Check the list date; California's is July 2026 |
-| [Find a PACE Program](https://www.npaonline.org/find-a-pace-program) | NPA (context) | City | Program names and locations | Shows no service areas |
+| [Monthly Enrollment by Contract/Plan/State/County (CPSC)](https://cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county) | CMS | County | Enrollment of each "National PACE" contract | Small counts are [shown as * (10 or fewer)](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07) |
+| [PACE service-area ZIP list](https://www.dhcs.ca.gov/file/website-zip-code-tracker/) (California example) | State Medicaid agency | ZIP code | Current approved service areas | Check the list date; California's is July 2026 |
+| [Find a PACE Program](https://www.npaonline.org/find-a-pace-program) | NPA (context) | City | Program names and cities | No street addresses or service areas |
 | [B18106](https://api.census.gov/data/2024/acs/acs5/groups/B18106.html), Sex by Age by Self-Care Difficulty | Census Bureau, ACS 5-year | County, tract, ZCTA | Proxy for needing help with daily care | No 55–64 age group |
 | [B01001](https://api.census.gov/data/2024/acs/acs5/groups/B01001.html), Sex by Age | Census Bureau, ACS 5-year | County, tract, ZCTA | People 55 and over | Total population, including people in institutions |
 | [B27010](https://api.census.gov/data/2024/acs/acs5/groups/B27010.html), Types of Health Insurance Coverage by Age | Census Bureau, ACS 5-year | County, tract, ZCTA | Self-reported Medicare plus Medicaid coverage | Survey-based proxy, not a CMS count |
-| [Dual enrollment snapshot](https://www.cms.gov/data-research/research/statistical-resources-dually-eligible-beneficiaries/mmco-statistical-analytic-reports) | CMS Medicare-Medicaid Coordination Office | State, county | Dual enrollees by dual status | No age breakdown |
+| [Dual enrollment snapshot](https://www.cms.gov/data-research/research/statistical-resources-dually-eligible-beneficiaries/mmco-statistical-analytic-reports) | CMS Medicare-Medicaid Coordination Office | State, county | Dual enrollees by dual status | No age breakdown; cells of 1–10 are suppressed (*) |
 | [ZIP crosswalk](https://www.huduser.gov/portal/datasets/usps_crosswalk.html) | HUD | ZIP to county, tract | Splitting ZIP lists across counties or tracts | Login required |
 
 ## Step-by-step: mapping a PACE expansion
@@ -176,14 +184,14 @@ CMS, in consultation with the state, [may exclude an area already covered by ano
 
 1. Download your state's PACE ZIP list. California's DHCS says enrollees [must reside in one of the service areas and ZIP codes listed](https://www.dhcs.ca.gov/individuals/Pages/PACEPlans.aspx).
 2. Join ZIP codes to ZCTA boundaries. ZCTAs are ["generalized areal representations"](https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html) of ZIP codes, and not every ZIP code has one. See [ZCTA vs. ZIP code](/glossary/zcta-vs-zip-code).
-3. Geocode each PACE center address. NPA's [directory](https://www.npaonline.org/find-a-pace-program) lists program names and cities, not service areas.
-4. Add CMS enrollment. The [CPSC file](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07) readme lists "National PACE" among its organization types. It reports enrollees by legal county of residence and blanks counts of 10 or fewer.
+3. Geocode each PACE center. NPA's [directory](https://www.npaonline.org/find-a-pace-program) lists only program names and cities, so get each center's street address from the program's own site first.
+4. Add CMS enrollment. The [CPSC file](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07) readme lists "National PACE" among its organization types. It reports enrollees by legal county of residence. Small counts are [shown as * (10 or fewer)](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07).
 
-[GeoChat AI](https://atlas.geochat.ai) is one free option for this step, with no credit card required. GeoChat Atlas includes PACE layers: PACE sites, PACE coverage by county and PACE service ZIP codes. The platform is new; the current version is GeoChat Atlas (version 2).
+[GeoChat AI](https://atlas.geochat.ai) is one free option for this step, with no credit card required. As of November 2026, GeoChat Atlas includes PACE layers: PACE sites, PACE coverage by county and PACE service ZIP codes. The platform is new; the current version is GeoChat Atlas (version 2).
 
 ### Step 2: Estimate the eligible pool by ZIP code or county
 
-No public file counts people who meet a state's nursing facility level of care. Build a proxy and label it as one.
+Only the State administering agency makes the level-of-care finding ([§460.150(b)(2)](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-E/part-460/subpart-I)), so you can only map proxies. Label yours as a proxy.
 
 1. Pull table [B18106](https://api.census.gov/data/2024/acs/acs5/groups/B18106.html) from the ACS 2020–2024 5-year release for ZCTAs or tracts. Self-care difficulty means [difficulty bathing or dressing](https://www.census.gov/topics/health/disability/guidance/data-collection-acs.html).
 2. Note its age groups: [5–17, 18–34, 35–64, 65–74, and 75 and over](https://api.census.gov/data/2024/acs/acs5/groups/B18106.html). There is no 55–64 group.
@@ -194,18 +202,20 @@ No public file counts people who meet a state's nursing facility level of care. 
 4. Keep the margins of error with each estimate. See [ACS 5-year estimates](/glossary/acs-5-year-estimates).
 5. Add CMS dual counts as context, not as the denominator. The [MMCO snapshot](https://www.cms.gov/data-research/research/statistical-resources-dually-eligible-beneficiaries/mmco-statistical-analytic-reports) gives county counts by dual status through September 2025.
 
-GeoChat Atlas also includes estimates of people who may be eligible for PACE, built from ACS self-care difficulty for ages 55 and over. These estimates are proxies: they do not check nursing-home level of care or PACE service areas. Its AI chat lets you drill into ZIP codes and compare regions.
+As of November 2026, GeoChat Atlas also has estimates of people 55 and over who may be eligible for PACE. They are proxies built from ACS self-care difficulty and do not check nursing-home level of care or PACE service areas. Its AI chat lets you drill into ZIP codes and compare regions.
 
 ### Step 3: Find gaps outside current service areas
 
 1. Flag ZCTAs with a sizable proxy count but no PACE coverage.
 2. Rank them by proxy count and by proxy rate per 1,000 residents 55 and over.
 3. Overlay county CPSC enrollment to see where programs already reach. The [CPSC file](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07) has no field marking which counties are inside a contract's approved service area.
-4. Group adjacent gap ZIP codes into candidate areas. A center must sit [in or contiguous to](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-E/part-460/subpart-F) the area it serves.
+4. Group adjacent gap ZIP codes into candidate areas. The organization must have ["at least one PACE center either in, or contiguous to, its defined service area"](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-E/part-460/subpart-F).
 
 ### Step 4: Test drive times from a candidate center
 
-CMS states it ["does not have a specific travel time requirement"](https://leadingage.org/wp-content/uploads/2026/07/2026-PACE-Rural-Memo_072226.pdf), but states may set their own. California requires a [60-minute one-way drive time](https://www.dhcs.ca.gov/services/ltc/Documents/PL-23-01-Application-Process-DHCS.pdf) from participants' homes to the adult day health center. Applicants must use [commute hours of 6:00 to 8:00 a.m. and 2:00 to 4:00 p.m.](https://www.dhcs.ca.gov/services/ltc/Documents/PL-23-01-Application-Process-DHCS.pdf)
+CMS's rural PACE memo says the agency ["does not have a specific travel time requirement"](https://www.cms.gov/about-cms/information-systems/hpms/hpms-memos-archive-weekly/hpms-memos-wk-4-july-20-24), but states may set their own. The memo is in that page's zip file ([LeadingAge copy](https://leadingage.org/wp-content/uploads/2026/07/2026-PACE-Rural-Memo_072226.pdf)).
+
+California's PACE Policy Letter 23-01 allows a drive of [at most 60 minutes one way to the PACE center](https://www.dhcs.ca.gov/services/ltc/Documents/PL-23-01-Application-Process-DHCS.pdf) from participants' homes. The letter also calls it the adult day health center. Applicants must use [commute hours of 6:00 to 8:00 a.m. and 2:00 to 4:00 p.m.](https://www.dhcs.ca.gov/services/ltc/Documents/PL-23-01-Application-Process-DHCS.pdf)
 
 1. Geocode two or three candidate sites.
 2. Build drive-time areas at your state's threshold, using traffic for the stated hours. See [drive-time access](/glossary/drive-time-access).
@@ -218,7 +228,7 @@ CMS states it ["does not have a specific travel time requirement"](https://leadi
 1. List every existing or pending PACE organization in your candidate ZIP codes. Washington requires new applicants to [identify overlap with an existing or pending PACE organization](https://dshs.wa.gov/sites/default/files/ALTSA/stakeholders/documents/PACE/ALTSA%20PACE%20Service%20Area%20Policy.pdf).
 2. Read your state's overlap rule. Washington allows [only a single PACE organization per service area ZIP code](https://dshs.wa.gov/sites/default/files/ALTSA/stakeholders/documents/PACE/ALTSA%20PACE%20Service%20Area%20Policy.pdf). King County is the exception: two are allowed, based on an assumed 10% penetration rate.
 3. Expect a response from incumbents. California decides [overlap at the ZIP code level](https://www.dhcs.ca.gov/services/ltc/Documents/PL-23-01-Application-Process-DHCS.pdf), and existing or pending organizations may file a counter-feasibility study within 30 days of notice.
-4. Confirm the state is taking applications. California paused [new PACE organization and service area expansion applications](https://www.dhcs.ca.gov/services/ltc/Documents/PL-25-02-Application-Pause.pdf) from November 20, 2025, for at least two years, through November 19, 2027.
+4. Confirm the state is taking applications. California paused [new PACE organization and service area expansion applications](https://www.dhcs.ca.gov/services/ltc/Documents/PL-25-02-Application-Pause.pdf) from November 20, 2025, until at least November 19, 2027. Applications [already received and in review](https://www.dhcs.ca.gov/services/ltc/Documents/PL-25-02-Application-Pause.pdf) are not affected.
 5. Build the feasibility study the state asks for. [California](https://www.dhcs.ca.gov/services/ltc/Documents/PL-23-01-Application-Process-DHCS.pdf) and [Washington](https://dshs.wa.gov/sites/default/files/ALTSA/stakeholders/documents/PACE/ALTSA%20PACE%20Service%20Area%20Policy.pdf) both require an estimate of PACE-eligible individuals, the method behind it, competitive factors and projected capture rates.
 
 ### Step 6: Document the map for the application
@@ -237,7 +247,7 @@ California's application needs a [service area map with the PACE center clearly 
 - **ACS dual proxies are not CMS counts.** B27010's category is ["With Medicare and Medicaid/means-tested public coverage"](https://api.census.gov/data/2024/acs/acs5/groups/B27010.html), which is self-reported and broader than Medicaid. Use the [MMCO snapshot](https://www.cms.gov/data-research/research/statistical-resources-dually-eligible-beneficiaries/mmco-statistical-analytic-reports) for administrative county counts.
 - **Disability tables leave out institutions.** B18106 covers the [civilian noninstitutionalized population 5 years and over](https://api.census.gov/data/2024/acs/acs5/groups.json), so nursing home residents are not in it.
 - **ZIP codes are not ZCTAs.** Service areas use USPS ZIP codes, while ACS uses ZCTAs. PO Box-only ZIP codes are [not in the HUD crosswalk](https://www.huduser.gov/portal/datasets/usps_crosswalk.html), so place them by hand.
-- **CMS enrollment is county-level and partly blank.** Blank cells hide counts of 10 or fewer, so summed county totals understate enrollment.
+- **CMS enrollment is county-level and partly suppressed.** Cells [shown as * (10 or fewer)](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07) carry no number, so summed county totals understate enrollment.
 - **State approval decides the final map.** States can set travel rules, overlap limits and application pauses on top of federal rules.
 
 ## Common mistakes
@@ -245,7 +255,7 @@ California's application needs a [service area map with the PACE center clearly 
 - **Calling the proxy "eligible people."** Label it as an estimate of potential need, and name the tables.
 - **Hiding the 55–64 step.** B18106 has no 55–64 group, so state how you handled it.
 - **Measuring midday drive times.** Use the hours your state specifies.
-- **Treating CPSC counties as service areas.** Use the state ZIP list for boundaries.
+- **Treating CPSC counties as service areas.** CMS's [October 2026 MA contract service area file](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/ma-contract-service-area-state/county/ma-contract-service-area-2026-10) lists every "National PACE" contract as covering the entire US. Use the state ZIP list for boundaries.
 - **Checking only current competitors.** Washington and California also ask about pending organizations.
 - **Assuming a federal drive-time standard.** CMS has none; check your state.
 
