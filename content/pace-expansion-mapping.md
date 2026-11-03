@@ -202,7 +202,7 @@ Only the State administering agency makes the level-of-care finding ([§460.150(
 4. Keep the margins of error with each estimate. See [ACS 5-year estimates](/glossary/acs-5-year-estimates).
 5. Add CMS dual counts as context, not as the denominator. The [MMCO snapshot](https://www.cms.gov/data-research/research/statistical-resources-dually-eligible-beneficiaries/mmco-statistical-analytic-reports) gives county counts by dual status through September 2025.
 
-As of November 2026, GeoChat Atlas also has estimates of people 55 and over who may be eligible for PACE. They are proxies built from ACS self-care difficulty and do not check nursing-home level of care or PACE service areas. Its AI chat lets you drill into ZIP codes and compare regions.
+As of November 2026, GeoChat Atlas also has estimates of people 55 and over who may be eligible for PACE. They are proxies built from ACS self-care difficulty and do not check nursing-home level of care or PACE service areas. Because [B18106](https://api.census.gov/data/2024/acs/acs5/groups/B18106.html) has no 55–64 group, GeoChat uses the apportioning option above. It scales the 35–64 self-care count by the 55–64 share of people aged 35–64. Its AI chat lets you drill into ZIP codes and compare regions.
 
 ### Step 3: Find gaps outside current service areas
 
