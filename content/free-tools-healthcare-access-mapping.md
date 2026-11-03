@@ -3,7 +3,7 @@ title: "Free Tools for Mapping Healthcare Access Gaps (2026)"
 description: "Free tools to map healthcare access gaps for a CHNA: HRSA HPSA Find, CDC PLACES, SparkMap, County Health Rankings, AccessMod and more, compared."
 slug: free-tools-healthcare-access-mapping
 type: roundup
-updated: 2026-11-02
+updated: 2026-11-03
 faq:
   - q: "What free tool shows whether my county or address is in a Health Professional Shortage Area?"
     a: "HRSA's HPSA Find on data.hrsa.gov searches primary care, dental and mental health HPSAs by location or HPSA ID. HRSA's Find Shortage Area by Address tool checks a single address, and its batch tool checks up to 200 addresses at once."
@@ -28,6 +28,15 @@ sources:
   - title: "HRSA Data Warehouse: Build Your Own Map"
     url: "https://data.hrsa.gov/tools/build-your-own-map/"
     accessed: 2026-11-02
+  - title: "HRSA: Health Center Program GeoCare Navigator User Guide (formerly UDS Mapper)"
+    url: "https://data.hrsa.gov/DataDownload/GeoCareNavigator/HCP-GeoCareNavigator-User-Guide.pdf"
+    accessed: 2026-11-03
+  - title: "HRSA: GeoCare Navigator About the Data (Version 3.0, 2026)"
+    url: "https://data.hrsa.gov/DataDownload/GeoCareNavigator/AboutTheData.pdf"
+    accessed: 2026-11-03
+  - title: "HRSA: Service Area Competition Frequently Asked Questions"
+    url: "https://bphc.hrsa.gov/funding/funding-opportunities/service-area-competition/faq"
+    accessed: 2026-11-03
   - title: "CDC PLACES: About PLACES"
     url: "https://www.cdc.gov/places/about/index.html"
     accessed: 2026-11-02
@@ -110,13 +119,14 @@ sources:
 
 The main free tools for mapping healthcare access gaps in a CHNA are HRSA's HPSA Find, CDC PLACES, SparkMap and County Health Rankings. The AMA Health Workforce Mapper, WHO AccessMod and GeoChat AI add workforce, travel-time and supply-demand views.
 
-Each entry below lists what the tool maps, its smallest geography, its cost as of November 2026, and one limitation. GeoChat AI publishes this page and appears here as one option among eight.
+Each entry below lists what the tool maps, its smallest geography, its cost as of November 2026, and one limitation. GeoChat AI publishes this page and appears here as one option among nine.
 
 ## Comparison table
 
 | Tool | What it maps | Smallest geography | Cost (Nov 2026) | Best for |
 |---|---|---|---|---|
 | HRSA shortage-area tools (data.hrsa.gov) | HPSA and MUA/P designations | Single address ([lookup](https://data.hrsa.gov/topics/health-workforce/shortage-areas)) | Public federal data; no fee listed | Confirming shortage designations |
+| UDS Mapper (now HRSA GeoCare Navigator) | Health center service areas, penetration and "not served" estimates from UDS data | ZCTA ([source](https://data.hrsa.gov/DataDownload/GeoCareNavigator/HCP-GeoCareNavigator-User-Guide.pdf)) | No fee listed; [no login required](https://data.hrsa.gov/DataDownload/GeoCareNavigator/HCP-GeoCareNavigator-User-Guide.pdf) | Health center service area maps for HRSA applications |
 | CDC PLACES | [40 modeled health measures](https://www.cdc.gov/places/current-release-notes/index.html) | Census tract and ZCTA ([source](https://www.cdc.gov/places/about/index.html)) | [Free](https://www.cdc.gov/places/about/index.html) | Chronic disease prevalence maps |
 | SparkMap (CARES) | Map layers and needs assessment reports | Free: [single county](https://sparkmap.org/pricing/); Premium/Enterprise: ZIP, tract or custom area | Free account; paid from [$179/year](https://sparkmap.org/pricing/) | Quick county indicator report |
 | County Health Rankings & Roadmaps | Health outcomes and factors | County | No fee listed; data downloadable | County benchmarking |
@@ -136,6 +146,16 @@ HRSA's [Health Workforce Shortage Areas page](https://data.hrsa.gov/topics/healt
 - **Best for:** confirming [HPSA](/glossary/hpsa) status for grant applications and CHNA narratives.
 - **Other map tools:** HRSA's [featured tools](https://data.hrsa.gov/about/get-started) also list Build Your Own Map, High Need Mapping Tool, Unmet Need Score Map Tool and GeoCare Navigator.
 - **Limitation:** the [Build Your Own Map page](https://data.hrsa.gov/tools/build-your-own-map/) says it "is best suited for individuals without visual impairment." The page recommends HRSA's Data Portal for selecting datasets and building custom views.
+
+### UDS Mapper (now HRSA GeoCare Navigator)
+
+UDS Mapper was HRSA's health center mapping tool until HRSA [replaced it in March 2024](https://bphc.hrsa.gov/funding/funding-opportunities/service-area-competition/faq) with the Health Center Program GeoCare Navigator. The Navigator [includes the same datasets](https://data.hrsa.gov/DataDownload/GeoCareNavigator/HCP-GeoCareNavigator-User-Guide.pdf) and maps health center service areas from UDS patient origin data. Its [data guide](https://data.hrsa.gov/DataDownload/GeoCareNavigator/AboutTheData.pdf) defines penetration, "not served" and dominant health center fields for each ZCTA.
+
+- **Smallest geography:** ZIP Code Tabulation Area ([ZCTA](/glossary/zcta-vs-zip-code)). You build a service area by selecting ZCTAs on the map, by radius, or by pasting or uploading ZIP codes ([user guide](https://data.hrsa.gov/DataDownload/GeoCareNavigator/HCP-GeoCareNavigator-User-Guide.pdf)).
+- **Cost:** as of November 2026, no fee is listed, and the tool [does not require a login](https://data.hrsa.gov/DataDownload/GeoCareNavigator/HCP-GeoCareNavigator-User-Guide.pdf). Exports are a PDF report, a GeoJSON file and CSV tables.
+- **Data:** HRSA's Version 3.0 data guide (2026) lists [2025 UDS patient data and ACS 2020–2024 estimates](https://data.hrsa.gov/DataDownload/GeoCareNavigator/AboutTheData.pdf), with the next update planned for fall 2027.
+- **Best for:** health center service area maps for HRSA applications. SAC maps [must show](https://bphc.hrsa.gov/funding/funding-opportunities/service-area-competition/faq) proposed sites, service area ZIP codes, MUA/Ps, health centers and look-alikes, and other providers. It fits better than GeoChat AI for UDS-based penetration analysis ([comparison](/geochat-ai-vs-uds-mapper)).
+- **Limitation:** with no login, [saving work is not an option](https://data.hrsa.gov/DataDownload/GeoCareNavigator/HCP-GeoCareNavigator-User-Guide.pdf), so keep the browser tab open. The Unmet Need Score is [not included](https://data.hrsa.gov/DataDownload/GeoCareNavigator/HCP-GeoCareNavigator-User-Guide.pdf).
 
 ### CDC PLACES
 
