@@ -3,18 +3,18 @@ title: "How to Map Healthcare Access Gaps for a CHNA"
 description: "Map access gaps for a 501(r) CHNA: define the community, layer ACS need over NPPES and HRSA supply, measure ratios and drive time, and document sources."
 slug: chna-access-gap-mapping-guide
 type: guide
-updated: 2026-11-02
+updated: 2026-11-10
 faq:
   - q: "How often does a nonprofit hospital have to do a CHNA?"
-    a: "Every three years. A hospital facility meets the rule if it conducted a CHNA in the current taxable year or either of the two preceding taxable years, and adopted an implementation strategy on time."
+    a: "Every three years. A hospital facility meets the rule if it conducted a CHNA in the current taxable year or either of the two preceding taxable years. It must also have adopted an implementation strategy on time."
   - q: "Does the IRS require maps in a CHNA report?"
     a: "Maps are not among the report contents listed in Treas. Reg. §1.501(r)-3(b)(6). The report must define the community and explain how it was determined, and maps are a clear way to show that."
   - q: "Can a hospital CHNA use data collected by others, such as Census or health department data?"
-    a: "Yes. The report must describe the data and methods used, but for data collected by others it may cite the source material instead of describing how the data were collected."
+    a: "Yes. The report must describe the data and methods used. For data collected by others, it may cite the source material instead of describing how the data were collected."
   - q: "Which geography should a hospital use to map its CHNA community?"
-    a: "Patient-origin ZIP codes, converted to ZCTAs, match how hospitals track discharges and how the Census Bureau publishes ACS data. Census tracts show more detail inside a ZIP code, and counties match county-level sources such as County Health Rankings and AHRF. HPSA designations can be whole counties, parts of counties or neighborhoods, so overlay their boundaries."
+    a: "Patient-origin ZIP codes, converted to ZCTAs, match how hospitals track discharges and how the Census Bureau publishes ACS data. Census tracts show more detail inside a ZIP code, and counties match county-level sources such as County Health Rankings and AHRF. HPSAs can be geographic areas, population groups or facilities, and their boundaries may not match your service area, so overlay them."
   - q: "Can GeoChat AI count providers in my hospital's service area?"
-    a: "Yes, by county and ZIP code. GeoChat Atlas counts providers from the NPPES registry (October 2026 file); counts are registrations, not full-time clinicians. Its maps also show supply-demand gaps and provider deserts built from public data such as ACS and NPPES."
+    a: "Yes, by county and ZIP code, as of November 2026. GeoChat Atlas counts providers from the NPPES registry (October 2026 file); counts are registrations, not full-time clinicians. Its maps also show supply-demand gaps and provider deserts built from public data such as ACS and NPPES."
 sources:
   - title: "IRS: Consequences of non-compliance with Section 501(r)"
     url: "https://www.irs.gov/charities-non-profits/consequence-of-non-compliance-with-section-501r"
@@ -25,18 +25,15 @@ sources:
   - title: "26 CFR § 1.501(r)-3 - Community health needs assessments (Cornell LII)"
     url: "https://www.law.cornell.edu/cfr/text/26/1.501(r)-3"
     accessed: 2026-11-02
-  - title: "Requirements for 501(c)(3) Hospitals Under the Affordable Care Act - Section 501(r)"
-    url: "https://www.irs.gov/charities-non-profits/charitable-organizations/requirements-for-501c3-hospitals-under-the-affordable-care-act-section-501r"
-    accessed: 2026-11-02
   - title: "Glossary - Geography Program, U.S. Census Bureau"
     url: "https://www.census.gov/programs-surveys/geography/about/glossary.html"
-    accessed: 2026-11-02
+    accessed: 2026-11-10
   - title: "HUD USPS ZIP Code Crosswalk Files"
     url: "https://www.huduser.gov/portal/datasets/usps_crosswalk.html"
     accessed: 2026-11-02
   - title: "When to Use 1-year or 5-year Estimates - American Community Survey"
     url: "https://www.census.gov/programs-surveys/acs/guidance/estimates.html"
-    accessed: 2026-11-02
+    accessed: 2026-11-10
   - title: "CDC/ATSDR Social Vulnerability Index"
     url: "https://www.atsdr.cdc.gov/place-health/php/svi/index.html"
     accessed: 2026-11-02
@@ -45,22 +42,22 @@ sources:
     accessed: 2026-11-02
   - title: "About PLACES - CDC"
     url: "https://www.cdc.gov/places/about/index.html"
-    accessed: 2026-11-02
+    accessed: 2026-11-10
   - title: "PLACES Current Release Notes - CDC"
     url: "https://www.cdc.gov/places/help/data-notes/"
-    accessed: 2026-11-02
+    accessed: 2026-11-10
   - title: "PLACES Frequently Asked Questions - CDC"
     url: "https://www.cdc.gov/places/faqs/index.html"
-    accessed: 2026-11-02
+    accessed: 2026-11-10
   - title: "Data Dissemination (NPPES) - CMS"
     url: "https://www.cms.gov/medicare/regulations-guidance/administrative-simplification/data-dissemination"
-    accessed: 2026-11-02
+    accessed: 2026-11-10
   - title: "Health Care Provider Taxonomy - NUCC"
     url: "https://www.nucc.org/index.php/code-sets-mainmenu-41/provider-taxonomy-mainmenu-40"
     accessed: 2026-11-02
   - title: "Shortage Areas - HRSA Data Warehouse"
     url: "https://data.hrsa.gov/topics/health-workforce/shortage-areas"
-    accessed: 2026-11-02
+    accessed: 2026-11-10
   - title: "Scoring Shortage Designations - HRSA Bureau of Health Workforce"
     url: "https://bhw.hrsa.gov/workforce-shortage-areas/shortage-designation/scoring"
     accessed: 2026-11-02
@@ -69,7 +66,7 @@ sources:
     accessed: 2026-11-02
   - title: "Data Downloads - HRSA Data Warehouse"
     url: "https://data.hrsa.gov/data/download"
-    accessed: 2026-11-02
+    accessed: 2026-11-10
   - title: "Primary Care Physicians - County Health Rankings & Roadmaps"
     url: "https://www.countyhealthrankings.org/health-data/health-factors/clinical-care/access-to-care/primary-care-physicians"
     accessed: 2026-11-02
@@ -91,9 +88,9 @@ To map access gaps for a CHNA, define your community, layer need over provider s
 
 ## What the IRS requires of a CHNA
 
-Section 501(r)(3) requires each hospital facility to conduct a [community health needs assessment every three years](https://www.irs.gov/charities-non-profits/community-health-needs-assessment-for-charitable-hospital-organizations-section-501r3). A facility complies only if it conducted one in the current or either of the two preceding taxable years and adopted an implementation strategy for it. CHNA failures trigger a [$50,000 excise tax per noncompliant facility](https://www.irs.gov/charities-non-profits/consequence-of-non-compliance-with-section-501r), and failing Section 501(r) [may result in revocation of tax-exempt status](https://www.irs.gov/charities-non-profits/consequence-of-non-compliance-with-section-501r).
+Section 501(r)(3) requires each hospital facility to conduct a [community health needs assessment every three years](https://www.irs.gov/charities-non-profits/community-health-needs-assessment-for-charitable-hospital-organizations-section-501r3). A facility complies only if it conducted one in the current or either of the two preceding taxable years. It must also have adopted an implementation strategy for it. CHNA failures trigger a [$50,000 excise tax per noncompliant facility](https://www.irs.gov/charities-non-profits/consequence-of-non-compliance-with-section-501r), and failing Section 501(r) [may result in revocation of tax-exempt status](https://www.irs.gov/charities-non-profits/consequence-of-non-compliance-with-section-501r).
 
-An authorized body must adopt the implementation strategy by the [15th day of the fifth month after the CHNA's taxable year ends](https://www.law.cornell.edu/cfr/text/26/1.501%28r%29-3). Failing the Section 501(r) requirements [may result in revocation of tax-exempt status](https://www.irs.gov/charities-non-profits/charitable-organizations/requirements-for-501c3-hospitals-under-the-affordable-care-act-section-501r). For background, see the [CHNA glossary entry](/glossary/chna).
+An authorized body must adopt the implementation strategy by the [15th day of the fifth month after the CHNA's taxable year ends](https://www.law.cornell.edu/cfr/text/26/1.501%28r%29-3). For background, see the [CHNA glossary entry](/glossary/chna).
 
 The detailed rules sit in [Treas. Reg. §1.501(r)-3](https://www.law.cornell.edu/cfr/text/26/1.501%28r%29-3). This table maps each rule to mapping work.
 
@@ -103,7 +100,7 @@ The detailed rules sit in [Treas. Reg. §1.501(r)-3](https://www.law.cornell.edu
 | (b)(4) Assessing needs | Identify, prioritize, and find resources for significant health needs. Needs include "the need to address financial and other barriers to accessing care." | Access gaps count as health needs in their own right. |
 | (b)(5) Community input | Get input from at least one governmental public health department or a State Office of Rural Health. Also include members or representatives of medically underserved, low-income, and minority populations, plus written comments on the last CHNA and implementation strategy. | Review draft maps with these groups before you finalize priorities. |
 | (b)(6) Written report | Define the community and how it was determined. Describe methods and input. List prioritized needs, criteria, and available resources. Evaluate actions taken since the last CHNA. | Every map needs a source note and a methods note. |
-| (b)(7) Widely available | Post the report on a website at least until two later CHNA reports are posted, and make a paper copy available for public inspection, without charge, at the facility. | Save a static copy of each map with the report, because live dashboards change. |
+| (b)(7) Widely available | Post the report on a website at least until two later CHNA reports are posted. Also make a paper copy available for public inspection, without charge, at the facility. | Save a static copy of each map with the report, because live dashboards change. |
 | (c) Implementation strategy | For each significant need, describe how the facility will address it or explain why it will not. | Use the gap maps to show where new actions will go. |
 
 The regulation defines medically underserved populations to include people at risk of inadequate care "due to geographic, language, financial, or other barriers" ([§1.501(r)-3(b)(5)](https://www.law.cornell.edu/cfr/text/26/1.501%28r%29-3)). Travel time, language, and insurance maps speak directly to that definition.
@@ -135,7 +132,7 @@ The [December 2025 PLACES release](https://www.cdc.gov/places/help/data-notes/) 
 
 ### Step 3: Map provider supply
 
-CMS publishes the National Plan and Provider Enumeration System (NPPES) as a [free Full Replacement Monthly NPI File, plus weekly incremental files and a monthly deactivation file](https://www.cms.gov/medicare/regulations-guidance/administrative-simplification/data-dissemination). The data are as reported to NPPES by providers or people acting for them.
+CMS publishes the National Plan and Provider Enumeration System (NPPES) as a [free Full Replacement Monthly NPI File](https://www.cms.gov/medicare/regulations-guidance/administrative-simplification/data-dissemination). CMS also publishes [weekly incremental files and a monthly deactivation file](https://www.cms.gov/medicare/regulations-guidance/administrative-simplification/data-dissemination). The data are as reported to NPPES by providers or people acting for them.
 
 1. Filter NPPES records by Health Care Provider Taxonomy code, a code set [maintained by the National Uniform Claim Committee](https://www.nucc.org/index.php/code-sets-mainmenu-41/provider-taxonomy-mainmenu-40). See [NPI taxonomy codes](/glossary/npi-taxonomy-codes).
 2. Drop NPIs listed in the deactivation file.
@@ -143,11 +140,11 @@ CMS publishes the National Plan and Provider Enumeration System (NPPES) as a [fr
 4. Download HRSA's [Shortage Areas file](https://data.hrsa.gov/topics/health-workforce/shortage-areas) in XLSX, CSV, or SHP format. It covers primary care, dental, and mental health HPSAs, plus Medically Underserved Areas and Populations.
 5. Add HRSA's [Health Center Program Service Delivery and Look-Alike Sites](https://data.hrsa.gov/data/download) to list resources available to address needs, a required report element.
 
-HRSA's [batch tool checks up to 200 addresses](https://data.hrsa.gov/topics/health-workforce/shortage-areas) for shortage-area status at once. See [HPSA](/glossary/hpsa) and [MUA/MUP](/glossary/mua-mup).
+HRSA's [batch tool checks up to 100 addresses](https://data.hrsa.gov/topics/health-workforce/shortage-areas) for shortage-area status at once. See [HPSA](/glossary/hpsa) and [MUA/MUP](/glossary/mua-mup).
 
 Label NPPES counts as headcounts, because HPSA criteria use [full-time-equivalent ratios](https://www.law.cornell.edu/cfr/text/42/appendix-A_to_part_5). The two are not directly comparable. NPPES depends on providers updating their records, so spot-check counts against local directories.
 
-[GeoChat AI](https://atlas.geochat.ai) is one option for a first pass, with a free tier and no credit card required. It maps supply-demand gaps and provider deserts from public data such as ACS and NPPES. Its AI chat lets you drill into ZIP codes.
+[GeoChat AI](https://atlas.geochat.ai) is one option for a first pass, with a free tier and no credit card required. As of November 2026, it maps supply-demand gaps and provider deserts from public data such as ACS and NPPES. Its AI chat lets you drill into ZIP codes.
 
 Its provider counts are NPPES registrations, not full-time clinicians, and the platform is new: the current version is GeoChat Atlas (version 2).
 
