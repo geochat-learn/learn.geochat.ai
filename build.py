@@ -270,7 +270,7 @@ def layout(p, inner_html):
 {inner_html}
 </div></main>
 <footer class="site"><div class="wrap">
-<p>GeoChat AI is an AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies. It has a free plan, with no credit card required. <a href="{APP_URL}">Start a free analysis</a> · <a href="{CONTACT_URL}">Contact</a> · <a href="{HOME_URL}">geochat.ai</a></p>
+<p>GeoChat AI is an AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies. It has a free plan, with no credit card required. <a href="{APP_URL}">Start a free analysis</a> · <a href="{CONTACT_URL}">Contact</a> · <a href="{HOME_URL}">geochat.ai</a> · <a href="{HOME_URL}/terms-of-use">Terms of Use</a> · <a href="{HOME_URL}/privacy-policy">Privacy Policy</a></p>
 <p>Published by {REVIEWER}. Spot an error? <a href="{CONTACT_URL}">Tell us</a> and we will correct it.</p>
 </div></footer>
 </body>
