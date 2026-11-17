@@ -3,7 +3,7 @@ title: "How to Map Healthcare Access Gaps for a CHNA"
 description: "Map access gaps for a 501(r) CHNA: define the community, layer ACS need over NPPES and HRSA supply, measure ratios and drive time, and document sources."
 slug: chna-access-gap-mapping-guide
 type: guide
-updated: 2026-11-10
+updated: 2026-11-17
 faq:
   - q: "How often does a nonprofit hospital have to do a CHNA?"
     a: "Every three years. A hospital facility meets the rule if it conducted a CHNA in the current taxable year or either of the two preceding taxable years. It must also have adopted an implementation strategy on time."
@@ -12,7 +12,7 @@ faq:
   - q: "Can a hospital CHNA use data collected by others, such as Census or health department data?"
     a: "Yes. The report must describe the data and methods used. For data collected by others, it may cite the source material instead of describing how the data were collected."
   - q: "Which geography should a hospital use to map its CHNA community?"
-    a: "Patient-origin ZIP codes, converted to ZCTAs, match how hospitals track discharges and how the Census Bureau publishes ACS data. Census tracts show more detail inside a ZIP code, and counties match county-level sources such as County Health Rankings and AHRF. HPSAs can be geographic areas, population groups or facilities, and their boundaries may not match your service area, so overlay them."
+    a: "Patient-origin ZIP codes, converted to ZCTAs, are a common starting point, since the Census Bureau publishes ACS data for ZCTAs. Census tracts show more detail inside a ZIP code, and counties match county-level sources such as County Health Rankings and AHRF. HPSAs can be geographic areas, population groups or facilities, and their boundaries may not match your service area, so overlay them."
   - q: "Can GeoChat AI count providers in my hospital's service area?"
     a: "Yes, by county and ZIP code, as of November 2026. GeoChat Atlas counts providers from the NPPES registry (October 2026 file); counts are registrations, not full-time clinicians. Its maps also show supply-demand gaps and provider deserts built from public data such as ACS and NPPES."
 sources:
@@ -57,7 +57,10 @@ sources:
     accessed: 2026-11-02
   - title: "Shortage Areas - HRSA Data Warehouse"
     url: "https://data.hrsa.gov/topics/health-workforce/shortage-areas"
-    accessed: 2026-11-10
+    accessed: 2026-11-17
+  - title: "Shortage Areas Batch Processing - HRSA Data Warehouse"
+    url: "https://data.hrsa.gov/topics/health-workforce/shortage-areas/batch-processing"
+    accessed: 2026-11-17
   - title: "Scoring Shortage Designations - HRSA Bureau of Health Workforce"
     url: "https://bhw.hrsa.gov/workforce-shortage-areas/shortage-designation/scoring"
     accessed: 2026-11-02
@@ -123,7 +126,7 @@ Use American Community Survey (ACS) 5-year estimates for ZCTAs and tracts. ACS 1
 
 Download tables from [data.census.gov](https://data.census.gov/) for age, poverty, health insurance, limited English, disability, and vehicle access. These match the financial, language, and geographic barriers named in the regulation.
 
-Two free indexes save time:
+Two free datasets save time:
 
 - The [CDC/ATSDR Social Vulnerability Index](https://www.atsdr.cdc.gov/place-health/php/svi/index.html) ranks census tracts using 16 ACS 5-year variables grouped into four themes.
 - [CDC PLACES](https://www.cdc.gov/places/about/index.html) gives model-based estimates for 40 health measures by county, place, census tract, and ZCTA.
@@ -137,16 +140,16 @@ CMS publishes the National Plan and Provider Enumeration System (NPPES) as a [fr
 1. Filter NPPES records by Health Care Provider Taxonomy code, a code set [maintained by the National Uniform Claim Committee](https://www.nucc.org/index.php/code-sets-mainmenu-41/provider-taxonomy-mainmenu-40). See [NPI taxonomy codes](/glossary/npi-taxonomy-codes).
 2. Drop NPIs listed in the deactivation file.
 3. Geocode practice location addresses, not mailing addresses.
-4. Download HRSA's [Shortage Areas file](https://data.hrsa.gov/topics/health-workforce/shortage-areas) in XLSX, CSV, or SHP format. It covers primary care, dental, and mental health HPSAs, plus Medically Underserved Areas and Populations.
+4. Download HRSA's [Shortage Areas files](https://data.hrsa.gov/topics/health-workforce/shortage-areas) in XLSX, CSV, or SHP format. HRSA's [download page](https://data.hrsa.gov/data/download) has separate files for primary care, dental, and mental health HPSAs, and for Medically Underserved Areas and Populations.
 5. Add HRSA's [Health Center Program Service Delivery and Look-Alike Sites](https://data.hrsa.gov/data/download) to list resources available to address needs, a required report element.
 
-HRSA's [batch tool checks up to 100 addresses](https://data.hrsa.gov/topics/health-workforce/shortage-areas) for shortage-area status at once. See [HPSA](/glossary/hpsa) and [MUA/MUP](/glossary/mua-mup).
+HRSA's [Shortage Areas Batch Processing tool](https://data.hrsa.gov/topics/health-workforce/shortage-areas/batch-processing) checks a list of addresses for shortage-area status at once. It needs a token, which you request through an emailed activation link. On November 17, 2026, the tool page listed a limit of 100 addresses per file; check it for the current cap. See [HPSA](/glossary/hpsa) and [MUA/MUP](/glossary/mua-mup).
 
 Label NPPES counts as headcounts, because HPSA criteria use [full-time-equivalent ratios](https://www.law.cornell.edu/cfr/text/42/appendix-A_to_part_5). The two are not directly comparable. NPPES depends on providers updating their records, so spot-check counts against local directories.
 
-[GeoChat AI](https://app.geochat.ai) is one option for a first pass, with a free tier and no credit card required. As of November 2026, it maps supply-demand gaps and provider deserts from public data such as ACS and NPPES. Its AI chat lets you drill into ZIP codes.
+[GeoChat AI](https://app.geochat.ai) is one option for a first pass. It has a free plan with no credit card required. As of November 2026, it maps supply-demand gaps and provider deserts from public data such as ACS and NPPES. Its AI chat lets you drill into ZIP codes.
 
-Its provider counts are NPPES registrations, not full-time clinicians, and the platform is new: the current version is GeoChat Atlas (version 2).
+Its provider counts are NPPES registrations, not full-time clinicians, and the platform is new: the current version is GeoChat Atlas (version 2). GeoChat AI is not affiliated with GeoChat, the MBZUAI remote-sensing model, or GeoChat, the InSTEDD messaging tool.
 
 ### Step 4: Measure access
 
@@ -155,7 +158,7 @@ Its provider counts are NPPES registrations, not full-time clinicians, and the p
 | Provider-to-population ratio | Supply per resident in each area | NPPES providers by area divided by ACS population | Residents cross area borders for care |
 | Travel time to nearest provider | Geographic barriers by neighborhood | QGIS or openrouteservice isochrones from geocoded sites | Car-based times understate barriers for households without vehicles |
 | Two-step floating catchment area (2SFCA) | Supply and demand that cross boundaries | Custom GIS workflow | Results shift with the travel-time threshold you choose |
-| Shortage designation overlay | Federally designated shortage areas | HRSA Shortage Areas file | Designation boundaries may not match your service area |
+| Shortage designation overlay | Federally designated shortage areas | HRSA Shortage Areas files | Designation boundaries may not match your service area |
 
 For ratio benchmarks, a geographic primary care HPSA needs a population to FTE primary care physician ratio of [at least 3,500:1](https://www.law.cornell.edu/cfr/text/42/appendix-A_to_part_5). Areas between 3,000:1 and 3,500:1 also qualify with unusually high needs or insufficient provider capacity. See [provider-to-population ratio](/glossary/provider-to-population-ratio).
 
