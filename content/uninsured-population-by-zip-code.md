@@ -3,7 +3,7 @@ title: "How to Estimate the Uninsured Population by ZIP Code"
 description: "Use ACS 5-year table S2701 for each ZCTA in your service area, add the counts, and combine margins of error. Steps, formulas and a SAHIE cross-check."
 slug: uninsured-population-by-zip-code
 type: guide
-updated: 2026-11-13
+updated: 2026-11-17
 faq:
   - q: "Which Census table gives the number of uninsured people by ZIP code?"
     a: "Use ACS 5-year subject table S2701 at the ZIP Code Tabulation Area (ZCTA) level. Line S2701_C04_001E is the uninsured count and S2701_C01_001E is the civilian noninstitutionalized population. Detailed tables B27010 and B27001 give the same measure split by age or by sex and age."
@@ -163,7 +163,7 @@ Expect some difference. SAHIE describes one year, while the 2020–2024 ACS pool
 
 ## Mapping ZCTA data in GeoChat Atlas
 
-[GeoChat AI](https://app.geochat.ai) is a free, AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas maps [ACS 2020–2024 5-year estimates](/methods) at county, ZIP code (ZCTA) and census tract level. Its free tier needs no credit card.
+[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas maps [ACS 2020–2024 5-year estimates](/methods) at county, ZIP code (ZCTA) and census tract level. Its free plan needs no credit card.
 
 As of November 2026, its AI chat can drill into ZIP codes and compare regions in plain language. The chat has no web search. It is instructed to report only figures from its own queries of the platform's datasets. That is an instruction to the model, not a guarantee. The platform is new; the current version is GeoChat Atlas (version 2). Check its [methods page](/methods) for which ACS tables and data versions are behind its layers.
 

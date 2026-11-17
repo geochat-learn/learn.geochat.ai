@@ -3,7 +3,7 @@ title: "CHNA: Community Health Needs Assessment Rules"
 description: "A CHNA is the assessment 501(c)(3) hospitals must do at least every three years under IRC 501(r)(3). Who must, what it contains, and how a CHA differs."
 slug: glossary/chna
 type: glossary
-updated: 2026-11-02
+updated: 2026-11-17
 faq:
   - q: "How often must a nonprofit hospital complete a CHNA?"
     a: "At least once every three years. A facility meets the rule if it conducted a CHNA in the current taxable year or [either of the two prior years](https://www.irs.gov/charities-non-profits/community-health-needs-assessment-for-charitable-hospital-organizations-section-501r3)."
@@ -82,4 +82,4 @@ Sources: [IRS](https://www.irs.gov/charities-non-profits/community-health-needs-
 4. Record each data source and its limits, such as [ACS margins of error](/glossary/acs-5-year-estimates).
 5. Consider a joint report with the local health department; the rules allow one when all partners define the community the same way.
 
-[GeoChat AI](https://app.geochat.ai) is a free mapping platform that lists community health needs assessments among its use cases. See the [CHNA access-gap mapping guide](/chna-access-gap-mapping-guide) for a full workflow.
+[GeoChat AI](https://app.geochat.ai) is a mapping platform that lists community health needs assessments among its use cases, and it has a free plan. See the [CHNA access-gap mapping guide](/chna-access-gap-mapping-guide) for a full workflow.

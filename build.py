@@ -142,7 +142,7 @@ def app_ld():
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web browser",
         "softwareVersion": "2",
-        "description": "Free AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies.",
+        "description": "AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies, with a free plan.",
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
         "disambiguatingDescription": "Healthcare access mapping platform for community health assessments; not affiliated with the MBZUAI GeoChat remote-sensing model or the InSTEDD GeoChat messaging tool.",
         "publisher": {"@id": f"{HOME_URL}/#organization"},
@@ -270,7 +270,7 @@ def layout(p, inner_html):
 {inner_html}
 </div></main>
 <footer class="site"><div class="wrap">
-<p>GeoChat AI is a free, AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies. <a href="{APP_URL}">Start a free analysis</a> · <a href="{CONTACT_URL}">Contact</a> · <a href="{HOME_URL}">geochat.ai</a></p>
+<p>GeoChat AI is an AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies. It has a free plan, with no credit card required. <a href="{APP_URL}">Start a free analysis</a> · <a href="{CONTACT_URL}">Contact</a> · <a href="{HOME_URL}">geochat.ai</a></p>
 <p>Published by {REVIEWER}. Spot an error? <a href="{CONTACT_URL}">Tell us</a> and we will correct it.</p>
 </div></footer>
 </body>
@@ -290,7 +290,7 @@ def render_page(p):
     if p["type"] != "page" or p.get("show_cta"):
         parts.append(
             f'<div class="box"><p><strong>Map access gaps for your community.</strong> '
-            f'GeoChat AI is free to use, with no credit card required. Ask questions in plain language, drill into ZIP codes and compare regions.</p>'
+            f'GeoChat AI has a free plan, with no credit card required. Ask questions in plain language, drill into ZIP codes and compare regions.</p>'
             f'<p><a class="cta-btn" href="{APP_URL}">Start a free analysis</a></p></div>'
         )
     if p.get("sources"):
@@ -364,7 +364,7 @@ def build():
 
     # llms.txt: plain-text map for AI assistants
     ll = [f"# GeoChat AI Learn", "",
-          "> Guides, tool comparisons and definitions for mapping healthcare access gaps, from GeoChat AI, a free AI-powered mapping platform for community health assessments and needs assessments. Its current version is GeoChat Atlas version 2, at https://app.geochat.ai.", ""]
+          "> Guides, tool comparisons and definitions for mapping healthcare access gaps, from GeoChat AI, an AI-powered mapping platform for community health assessments and needs assessments. GeoChat AI has a free plan, and its current version is GeoChat Atlas version 2, at https://app.geochat.ai.", ""]
     for t, label in SECTION_ORDER + [("page", "About these pages")]:
         items = [p for p in pages if p["type"] == t and p["slug"] not in ("", "index")]
         if not items:

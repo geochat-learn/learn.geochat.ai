@@ -3,7 +3,7 @@ title: "How to Combine CDC PLACES and Census Data on One Map"
 description: "Join CDC PLACES health estimates and ACS 5-year Census tables on one tract or ZCTA map: matching GEOIDs, boundary files, bivariate maps and pitfalls."
 slug: combine-cdc-places-census-data-map
 type: guide
-updated: 2026-11-12
+updated: 2026-11-17
 faq:
   - q: "What field do I use to join CDC PLACES to Census ACS data?"
     a: "Use the geographic identifier. In the PLACES GIS-friendly tract file it is the 11-digit tractfips column; in the ZCTA file it is zcta5. Census downloads from data.census.gov add nine characters in front of the GEOID. Strip them, or join on the GEOIDFQ field in 2023 or newer Census boundary files."
@@ -184,7 +184,7 @@ To estimate how many adults a percentage represents, CDC's formula is [populatio
 
 ## Doing it without GIS software
 
-[GeoChat AI](https://app.geochat.ai) is a free, AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas has [CDC PLACES (2025 release) and ACS 2020–2024 layers](/methods). The platform covers all 50 states, DC and Puerto Rico at county, ZIP code (ZCTA) and census tract level. CDC PLACES itself covers only the [50 states and the District of Columbia](https://data.cdc.gov/d/yjkw-uj5s). Its free tier needs no credit card.
+[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas has [CDC PLACES (2025 release) and ACS 2020–2024 layers](/methods). The platform covers all 50 states, DC and Puerto Rico at county, ZIP code (ZCTA) and census tract level. CDC PLACES itself covers only the [50 states and the District of Columbia](https://data.cdc.gov/d/yjkw-uj5s). GeoChat AI's free plan needs no credit card.
 
 As of November 2026, its AI chat answers follow-up questions in plain language, such as drilling into ZIP codes or comparing regions. The chat has no web search. It is instructed to report only figures from its own queries of the platform's datasets. That is an instruction to the model, not a guarantee. The platform is new; the current version is GeoChat Atlas (version 2). There is no automatic refresh; sources are rebuilt by hand after each new release. GeoChat AI is not affiliated with GeoChat, the MBZUAI remote-sensing model, or GeoChat, the InSTEDD messaging tool.
 

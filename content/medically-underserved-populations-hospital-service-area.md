@@ -3,7 +3,7 @@ title: "Find Medically Underserved Populations in a Service Area"
 description: "Use the IRS 501(r) definition, then map HRSA designations, ACS barrier indicators, SVI and provider supply by ZCTA, and test the map with community input."
 slug: medically-underserved-populations-hospital-service-area
 type: guide
-updated: 2026-11-16
+updated: 2026-11-17
 faq:
   - q: "How does the IRS define medically underserved populations for a hospital CHNA?"
     a: "Treas. Reg. §1.501(r)-3(b)(5)(i)(B) says they include populations experiencing health disparities or at risk of not receiving adequate medical care. The risk can come from being uninsured or underinsured, or from geographic, language, financial or other barriers."
@@ -196,7 +196,7 @@ Show the MOE or CV beside any small-area figure you publish. A ZCTA that looks e
 
 ## Mapping underserved populations in GeoChat Atlas
 
-[GeoChat AI](https://app.geochat.ai) is a free, AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas maps [ACS 2020–2024 5-year estimates](/methods) at county, ZIP code (ZCTA) and census tract level. Its layers include HRSA HPSAs and MUAs, CDC SVI 2022 and the CDC PLACES 2025 release. Its free tier needs no credit card.
+[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas maps [ACS 2020–2024 5-year estimates](/methods) at county, ZIP code (ZCTA) and census tract level. Its layers include HRSA HPSAs and MUAs, CDC SVI 2022 and the CDC PLACES 2025 release. Its free plan needs no credit card.
 
 As of November 2026, its AI chat can drill into ZIP codes and compare regions in plain language. The chat has no web search. It is instructed to report only figures from its own queries of the platform's datasets. That is an instruction to the model, not a guarantee.
 

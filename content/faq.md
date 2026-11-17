@@ -7,7 +7,7 @@ show_cta: true
 updated: 2026-11-17
 faq:
   - q: "Is GeoChat AI free?"
-    a: "Yes. GeoChat AI has a free tier with no credit card required. Expert services, such as expert review of AI findings and custom needs assessment reports, are paid."
+    a: "GeoChat AI has a free plan, with no credit card required. Expert services, such as expert review of AI findings and custom needs assessment reports, are paid."
   - q: "What data does GeoChat AI use?"
     a: "It uses public, open data. Population figures come from Census Bureau ACS 2020–2024 5-year estimates, with race and ethnicity from the 2020 Census. Provider counts come from the NPPES registry (October 2026 file). GeoChat Atlas also has more than 100 layers from CMS, HRSA, CDC and other public sources. See [data sources and methods](/methods/)."
   - q: "What is GeoChat Atlas?"
@@ -34,4 +34,4 @@ faq:
     a: "See the side-by-side comparisons: [vs SparkMap](/geochat-ai-vs-sparkmap/), [vs PolicyMap](/geochat-ai-vs-policymap/) and [vs ArcGIS](/geochat-ai-vs-arcgis/)."
 ---
 
-GeoChat AI is a free, AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. Its current version, GeoChat Atlas, is at [app.geochat.ai](https://app.geochat.ai).
+GeoChat AI is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. It has a free plan, with no credit card required. Its current version, GeoChat Atlas, is at [app.geochat.ai](https://app.geochat.ai).

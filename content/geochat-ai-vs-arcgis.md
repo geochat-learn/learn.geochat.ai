@@ -1,9 +1,9 @@
 ---
 title: "GeoChat AI vs Esri ArcGIS: Which Fits Your Health Mapping?"
-description: "ArcGIS is a full professional GIS for any analysis you can design; GeoChat AI is a free chat tool for healthcare supply-demand gaps. Compare fit and cost."
+description: "ArcGIS is a full professional GIS for any analysis you can design; GeoChat AI is a chat tool for healthcare supply-demand gaps, with a free plan."
 slug: geochat-ai-vs-arcgis
 type: comparison
-updated: 2026-11-02
+updated: 2026-11-17
 faq:
   - q: "Is ArcGIS free?"
     a: "ArcGIS Online offers a [free public account](https://doc.arcgis.com/en/arcgis-online/reference/faq.htm) for noncommercial use, but it cannot run analysis in Map Viewer or access premium content. Esri also offers a [21-day free trial](https://www.esri.com/en-us/arcgis/trial) that requires a business or government email."
@@ -84,7 +84,7 @@ sources:
     accessed: 2026-11-02
 ---
 
-ArcGIS is a professional GIS platform for almost any spatial analysis, while GeoChat AI is a free chat tool for healthcare supply-demand questions.
+ArcGIS is a professional GIS platform for almost any spatial analysis, while GeoChat AI is a chat tool for healthcare supply-demand questions.
 
 ArcGIS gives you far more analytical depth and control. GeoChat AI gives non-GIS staff a plain-language route to a narrower set of access questions.
 

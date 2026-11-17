@@ -3,7 +3,7 @@ title: "How to Map a PACE Expansion: Data and Steps"
 description: "Plan a PACE service area expansion with maps: eligibility rules, CMS enrollment data, ACS self-care proxies, drive-time tests and state approval."
 slug: pace-expansion-mapping
 type: guide
-updated: 2026-11-03
+updated: 2026-11-17
 faq:
   - q: "Who is eligible for PACE?"
     a: "People 55 or older who need a nursing-home level of care as certified by their state, live in a PACE organization's service area, and can live safely in the community with PACE's help. Medicare or Medicaid coverage is not required to enroll (42 CFR §460.150)."
@@ -187,7 +187,7 @@ CMS, in consultation with the state, [may exclude an area already covered by ano
 3. Geocode each PACE center. NPA's [directory](https://www.npaonline.org/find-a-pace-program) lists only program names and cities, so get each center's street address from the program's own site first.
 4. Add CMS enrollment. The [CPSC file](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07) readme lists "National PACE" among its organization types. It reports enrollees by legal county of residence. Small counts are [shown as * (10 or fewer)](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07).
 
-[GeoChat AI](https://app.geochat.ai) is one free option for this step, with no credit card required. As of November 2026, GeoChat Atlas includes PACE layers: PACE sites, PACE coverage by county and PACE service ZIP codes. The platform is new; the current version is GeoChat Atlas (version 2).
+[GeoChat AI](https://app.geochat.ai) is one option for this step, with a free plan and no credit card required. As of November 2026, GeoChat Atlas includes PACE layers: PACE sites, PACE coverage by county and PACE service ZIP codes. The platform is new; the current version is GeoChat Atlas (version 2).
 
 ### Step 2: Estimate the eligible pool by ZIP code or county
 

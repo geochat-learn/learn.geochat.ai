@@ -3,7 +3,7 @@ title: "Free Tools for Mapping Healthcare Access Gaps (2026)"
 description: "Free tools to map healthcare access gaps for a CHNA: HRSA HPSA Find, CDC PLACES, SparkMap, County Health Rankings, AccessMod and more, compared."
 slug: free-tools-healthcare-access-mapping
 type: roundup
-updated: 2026-11-03
+updated: 2026-11-17
 faq:
   - q: "What free tool shows whether my county or address is in a Health Professional Shortage Area?"
     a: "HRSA's HPSA Find on data.hrsa.gov searches primary care, dental and mental health HPSAs by location or HPSA ID. HRSA's Find Shortage Area by Address tool checks a single address, and its batch tool checks up to 200 addresses at once."
@@ -211,7 +211,7 @@ The [NC Data Portal](https://ncdataportal.org/about/) comes from Region 4 NC Pub
 
 ### GeoChat AI
 
-[GeoChat AI](https://app.geochat.ai) is a free, AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. It maps supply-demand gaps, provider deserts and population health patterns.
+[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. It has a free plan, with no credit card required. It maps supply-demand gaps, provider deserts and population health patterns.
 
 - **How it works:** you ask follow-up questions in a plain-language AI chat, drill into ZIP codes and compare regions. Nonprofit organizations can request new maps, and requests shape what gets added.
 - **Data:** public, open data, including Census Bureau American Community Survey ([ACS](/glossary/acs-5-year-estimates)) population figures and the NPPES provider registry.
