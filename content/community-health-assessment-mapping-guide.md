@@ -212,7 +212,7 @@ See [HPSA](/glossary/hpsa), [MUA/MUP](/glossary/mua-mup), [NPI taxonomy codes](/
 
 For travel time, [QGIS](https://qgis.org/) is free and open source on Windows, Mac, and Linux. [openrouteservice](https://openrouteservice.org/plans/) offers 500 free isochrone requests per day, as of November 2026. [ArcGIS Pro service areas](https://doc.esri.com/en/arcgis-pro/latest/help/analysis/networks/service-area-analysis-layer.html) consume credits when ArcGIS Online is the network source, and suit departments that already license it.
 
-Desktop GIS such as QGIS or ArcGIS Pro is the stronger choice for joining your own surveillance or survey data to custom boundaries. For quick exploration, [GeoChat AI](https://atlas.geochat.ai) has a free tier with no credit card required. It offers interactive maps of supply-demand gaps, provider deserts, and population health patterns, built on public data such as ACS and NPPES.
+Desktop GIS such as QGIS or ArcGIS Pro is the stronger choice for joining your own surveillance or survey data to custom boundaries. For quick exploration, [GeoChat AI](https://app.geochat.ai) has a free tier with no credit card required. It offers interactive maps of supply-demand gaps, provider deserts, and population health patterns, built on public data such as ACS and NPPES.
 
 Its AI chat lets you drill into ZIP codes and compare regions in plain language, and nonprofit organizations can request new maps. The platform is new: the current version is GeoChat Atlas (version 2).
 

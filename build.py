@@ -22,7 +22,7 @@ ROOT = Path(__file__).parent
 CONTENT = ROOT / "content"
 DIST = ROOT / "dist"
 SITE_URL = os.environ.get("SITE_URL", "https://learn.geochat.ai").rstrip("/")
-APP_URL = "https://atlas.geochat.ai"
+APP_URL = "https://app.geochat.ai"
 HOME_URL = "https://geochat.ai"
 CONTACT_URL = "https://geochat.ai/about#contact"
 ORG_NAME = "GeoChat AI"
@@ -364,7 +364,7 @@ def build():
 
     # llms.txt: plain-text map for AI assistants
     ll = [f"# GeoChat AI Learn", "",
-          "> Guides, tool comparisons and definitions for mapping healthcare access gaps, from GeoChat AI, a free AI-powered mapping platform for community health assessments and needs assessments. Its current version is GeoChat Atlas (https://atlas.geochat.ai), which replaces app.geochat.ai.", ""]
+          "> Guides, tool comparisons and definitions for mapping healthcare access gaps, from GeoChat AI, a free AI-powered mapping platform for community health assessments and needs assessments. Its current version is GeoChat Atlas version 2, at https://app.geochat.ai.", ""]
     for t, label in SECTION_ORDER + [("page", "About these pages")]:
         items = [p for p in pages if p["type"] == t and p["slug"] not in ("", "index")]
         if not items:

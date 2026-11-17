@@ -56,8 +56,8 @@ sources:
     url: "https://communitycommons.org/entities/4c128e63-7457-4e58-84bb-ac161fa0277e"
     accessed: 2026-11-02
   - title: "GeoChat AI platform"
-    url: "https://atlas.geochat.ai"
-    accessed: 2026-11-02
+    url: "https://app.geochat.ai"
+    accessed: 2026-11-17
   - title: "GeoChat AI home page"
     url: "https://geochat.ai"
     accessed: 2026-11-02
@@ -71,12 +71,12 @@ Both are used for [community health needs assessments](/glossary/chna). The bett
 
 | | SparkMap | GeoChat AI |
 |---|---|---|
-| What it is | Data mapping and assessment platform from [CARES at the University of Missouri](https://sparkmap.org/about/) | AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies ([atlas.geochat.ai](https://atlas.geochat.ai)) |
+| What it is | Data mapping and assessment platform from [CARES at the University of Missouri](https://sparkmap.org/about/) | AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies ([app.geochat.ai](https://app.geochat.ai)) |
 | Who it's built for | Health, government and nonprofit users; its assessment tool is marketed for CHNAs ([SparkMap](https://sparkmap.org/)) | Teams working on CHNAs, personal care and home health, PACE, rural health, community health worker programs and workforce analysis |
 | Data included | More than [120 sources](https://sparkmap.org/), including the Census Bureau, ACS, CDC and USDA ([data page](https://sparkmap.org/data/)); [430 assessment indicators](https://sparkmap.org/report/); [28,000+ map layers](https://sparkmap.org/pricing/) | Public, open data, including Census ACS population figures and the NPPES provider registry |
 | Geography levels | State, county, city, census tract, school district and ZIP code ([data page](https://sparkmap.org/data/)); [custom areas on Premium](https://sparkmap.org/pricing/) | ZIP code drill-downs and region-to-region comparisons |
 | How you get answers | Pick an area and indicators, then generate a report; browse and overlay layers in the Map Room | Ask questions in a chat, then follow up, drill into ZIP codes and compare regions |
-| Cost (as of November 2026) | Free account; Intro [$179/year](https://sparkmap.org/pricing/); Pro $999/year; Premium $4,999/year; Enterprise custom | [Free tier](https://atlas.geochat.ai), no credit card; paid expert services ([book a call](https://calendly.com/v-wong-geochat/30min)) |
+| Cost (as of November 2026) | Free account; Intro [$179/year](https://sparkmap.org/pricing/); Pro $999/year; Premium $4,999/year; Enterprise custom | [Free tier](https://app.geochat.ai), no credit card; paid expert services ([book a call](https://calendly.com/v-wong-geochat/30min)) |
 | Getting started | Menu-driven report builder; live demos on request ([pricing](https://sparkmap.org/pricing/)) | Plain-language AI chat |
 | Outputs | Assessment reports in PDF on all plans, plus Word and Excel on Premium and Enterprise ([pricing](https://sparkmap.org/pricing/)); saved, shared and printed maps | Interactive maps and chat answers; custom needs assessment reports as a paid expert service |
 
@@ -122,7 +122,7 @@ GeoChat AI fits when your question is specifically about healthcare supply and d
 - **Your focus is access gaps.** Its interactive maps show supply-demand gaps, provider deserts and population health patterns.
 - **You want to ask, not browse.** You type a question, then follow up, drill into ZIP codes or compare regions in the same chat.
 - **Your program matches its use cases.** The platform offers CHNA, personal care and home health, PACE, rural health, community health worker and workforce analysis use cases.
-- **You need a no-cost start.** The [free tier](https://atlas.geochat.ai) needs no credit card.
+- **You need a no-cost start.** The [free tier](https://app.geochat.ai) needs no credit card.
 - **You want expert help.** [Paid services](https://geochat.ai) cover expert review of AI findings, primary research and community interviews, custom needs assessment reports, methodology design and stakeholder presentation support.
 - **You need a map that doesn't exist yet.** Nonprofit organizations can request a new map, and those requests shape what gets added.
 

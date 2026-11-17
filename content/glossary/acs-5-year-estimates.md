@@ -86,4 +86,4 @@ The coefficient of variation (CV) is the standard error divided by the estimate,
 4. Use one 5-year vintage for every indicator on the same map.
 5. Cite the full period, for example "2020–2024 ACS 5-year estimates."
 
-[GeoChat AI](https://atlas.geochat.ai)'s maps draw on ACS population figures, so read its ZIP-level views with the same period and margin-of-error cautions.
+[GeoChat AI](https://app.geochat.ai)'s maps draw on ACS population figures, so read its ZIP-level views with the same period and margin-of-error cautions.

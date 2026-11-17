@@ -240,7 +240,7 @@ See [ACS 5-year estimates](/glossary/acs-5-year-estimates) for handling margins 
 4. **Aides.** Take [31-1120](https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm) employment for each OEWS area that covers your counties.
 5. **State lists.** If your state health or aging department publishes a licensed home care agency list, add agencies missing from NPPES. Formats differ by state.
 
-[GeoChat AI](https://atlas.geochat.ai) offers a personal care and home health use case. GeoChat Atlas counts providers by county and ZIP code from NPPES, and its layers include CMS home health data. As of November 2026, it has a free tier with no credit card required.
+[GeoChat AI](https://app.geochat.ai) offers a personal care and home health use case. GeoChat Atlas counts providers by county and ZIP code from NPPES, and its layers include CMS home health data. As of November 2026, it has a free tier with no credit card required.
 
 Its counts are NPPES registrations, not staff, and its home care agency layers use [NPPES extracts from 2025 to early 2026](/methods). The platform is new; the current version is GeoChat Atlas (version 2). Nonprofit organizations can request a new map, and requests shape what gets added.
 

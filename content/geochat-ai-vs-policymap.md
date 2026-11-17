@@ -47,8 +47,8 @@ sources:
     url: "https://policymap.helpdocs.io/reports"
     accessed: 2026-11-02
   - title: "GeoChat AI platform"
-    url: "https://atlas.geochat.ai"
-    accessed: 2026-11-02
+    url: "https://app.geochat.ai"
+    accessed: 2026-11-17
   - title: "GeoChat AI home page"
     url: "https://geochat.ai"
     accessed: 2026-11-02
@@ -62,12 +62,12 @@ PolicyMap offers far more data and analysis tools. GeoChat AI offers a narrower,
 
 | | PolicyMap | GeoChat AI |
 |---|---|---|
-| What it is | Mapping and analytics platform, plus data licensing, a Salesforce integration and professional services ([PolicyMap](https://www.policymap.com/)) | AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies ([atlas.geochat.ai](https://atlas.geochat.ai)) |
+| What it is | Mapping and analytics platform, plus data licensing, a Salesforce integration and professional services ([PolicyMap](https://www.policymap.com/)) | AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies ([app.geochat.ai](https://app.geochat.ai)) |
 | Who it's built for | Academic, community health, finance and lending, government, housing, nonprofit, pharma and public library users ([PolicyMap](https://www.policymap.com/)) | Teams working on CHNAs, personal care and home health, PACE, rural health, community health worker programs and workforce analysis |
 | Data included | "Millions of indicators" from "thousands of" public and private sources ([data](https://www.policymap.com/data)); health sources include CDC PLACES, BRFSS, HRSA, CMS and NPPES ([sources](https://www.policymap.com/data/sources)) | Public, open data, including Census ACS population figures and the NPPES provider registry |
 | Geography levels | Census tracts, block groups, ZIP codes, counties, CBSAs, states and national ([data](https://www.policymap.com/data)); custom regions and address radiuses ([product page](https://www.policymap.com/products/mapping-analytics)) | ZIP code drill-downs and region-to-region comparisons |
 | How you get answers | Choose datasets from menus; overlay up to five layers with conditions; build dashboards and reports, with optional [AI-generated summaries](https://www.policymap.com/products/mapping-analytics) | Ask questions in a chat, then follow up, drill into ZIP codes and compare regions |
-| Cost (as of November 2026) | No published prices; annual subscription by [custom quote](https://www.policymap.com/pricing) | [Free tier](https://atlas.geochat.ai), no credit card; paid expert services ([book a call](https://calendly.com/v-wong-geochat/30min)) |
+| Cost (as of November 2026) | No published prices; annual subscription by [custom quote](https://www.policymap.com/pricing) | [Free tier](https://app.geochat.ai), no credit card; paid expert services ([book a call](https://calendly.com/v-wong-geochat/30min)) |
 | Getting started | Weekly training sessions plus email and phone support ([pricing](https://www.policymap.com/pricing)) | Plain-language AI chat |
 | Outputs | Maps, dashboards and reports as PDFs, images and data files; CSV exports with metadata ([product page](https://www.policymap.com/products/mapping-analytics)); [embeddable maps](https://www.policymap.com/pricing) | Interactive maps and chat answers; custom needs assessment reports as a paid expert service |
 
@@ -104,7 +104,7 @@ PolicyMap is the stronger choice when you need breadth, specialty-level provider
 
 GeoChat AI fits when your question is specifically about healthcare supply and demand, and you want to start without a purchase.
 
-- **You need a no-cost start.** The [free tier](https://atlas.geochat.ai) needs no credit card. PolicyMap's [pricing page](https://www.policymap.com/pricing) lists quoted subscriptions only.
+- **You need a no-cost start.** The [free tier](https://app.geochat.ai) needs no credit card. PolicyMap's [pricing page](https://www.policymap.com/pricing) lists quoted subscriptions only.
 - **You want to ask, not build.** You type a question, then follow up, drill into ZIP codes or compare regions in the same chat.
 - **Your focus is access gaps.** Its interactive maps show supply-demand gaps, provider deserts and population health patterns.
 - **Your program matches its use cases.** The platform offers CHNA, personal care and home health, PACE, rural health, community health worker and workforce analysis use cases.

@@ -82,4 +82,4 @@ Sources: [IRS](https://www.irs.gov/charities-non-profits/community-health-needs-
 4. Record each data source and its limits, such as [ACS margins of error](/glossary/acs-5-year-estimates).
 5. Consider a joint report with the local health department; the rules allow one when all partners define the community the same way.
 
-[GeoChat AI](https://atlas.geochat.ai) is a free mapping platform that lists community health needs assessments among its use cases. See the [CHNA access-gap mapping guide](/chna-access-gap-mapping-guide) for a full workflow.
+[GeoChat AI](https://app.geochat.ai) is a free mapping platform that lists community health needs assessments among its use cases. See the [CHNA access-gap mapping guide](/chna-access-gap-mapping-guide) for a full workflow.

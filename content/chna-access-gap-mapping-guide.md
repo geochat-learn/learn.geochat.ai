@@ -144,7 +144,7 @@ HRSA's [batch tool checks up to 100 addresses](https://data.hrsa.gov/topics/heal
 
 Label NPPES counts as headcounts, because HPSA criteria use [full-time-equivalent ratios](https://www.law.cornell.edu/cfr/text/42/appendix-A_to_part_5). The two are not directly comparable. NPPES depends on providers updating their records, so spot-check counts against local directories.
 
-[GeoChat AI](https://atlas.geochat.ai) is one option for a first pass, with a free tier and no credit card required. As of November 2026, it maps supply-demand gaps and provider deserts from public data such as ACS and NPPES. Its AI chat lets you drill into ZIP codes.
+[GeoChat AI](https://app.geochat.ai) is one option for a first pass, with a free tier and no credit card required. As of November 2026, it maps supply-demand gaps and provider deserts from public data such as ACS and NPPES. Its AI chat lets you drill into ZIP codes.
 
 Its provider counts are NPPES registrations, not full-time clinicians, and the platform is new: the current version is GeoChat Atlas (version 2).
 

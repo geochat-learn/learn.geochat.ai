@@ -77,8 +77,8 @@ sources:
     url: "https://www.esri.com/training/"
     accessed: 2026-11-02
   - title: "GeoChat AI platform"
-    url: "https://atlas.geochat.ai"
-    accessed: 2026-11-02
+    url: "https://app.geochat.ai"
+    accessed: 2026-11-17
   - title: "GeoChat AI home page"
     url: "https://geochat.ai"
     accessed: 2026-11-02
@@ -92,12 +92,12 @@ ArcGIS gives you far more analytical depth and control. GeoChat AI gives non-GIS
 
 | | Esri ArcGIS | GeoChat AI |
 |---|---|---|
-| What it is | Esri's GIS platform: ArcGIS Online on the web, [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) on the desktop, and [Business Analyst](https://www.esri.com/en-us/arcgis/products/arcgis-business-analyst/overview) for market and site analysis | AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies ([atlas.geochat.ai](https://atlas.geochat.ai)) |
+| What it is | Esri's GIS platform: ArcGIS Online on the web, [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) on the desktop, and [Business Analyst](https://www.esri.com/en-us/arcgis/products/arcgis-business-analyst/overview) for market and site analysis | AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies ([app.geochat.ai](https://app.geochat.ai)) |
 | Who it's built for | GIS professionals and organizations of all sizes, "small teams and large organizations" ([ArcGIS Online](https://www.esri.com/en-us/arcgis/products/arcgis-online/overview)) | Teams working on CHNAs, personal care and home health, PACE, rural health, community health worker programs and workforce analysis |
 | Data included | Your own data plus ArcGIS Living Atlas; Business Analyst adds [15,000+ market data variables](https://www.esri.com/en-us/arcgis/products/arcgis-business-analyst/overview); Esri Demographics includes [ACS 2020–2024](https://doc.arcgis.com/en/esri-demographics/latest/esri-demographics/united-states.htm) | Public, open data, including Census ACS population figures and the NPPES provider registry |
 | Geography levels | Any boundary you load or draw; Esri Demographics covers states, counties, tracts, block groups, places, ZCTAs, CBSAs and H3 hexagons ([US data](https://doc.arcgis.com/en/esri-demographics/latest/esri-demographics/united-states.htm)) | ZIP code drill-downs and region-to-region comparisons |
 | How you get answers | Build maps and run analysis tools; built-in [AI assistants](https://www.esri.com/en-us/arcgis/products/arcgis-online/overview) help with tasks and workflows | Ask questions in a chat, then follow up, drill into ZIP codes and compare regions |
-| Cost (as of November 2026) | [Annual user-type licenses](https://www.esri.com/en-us/arcgis/products/arcgis-online/buy) with set credits; prices from Esri sales; [21-day free trial](https://www.esri.com/en-us/arcgis/trial) | [Free tier](https://atlas.geochat.ai), no credit card; paid expert services ([book a call](https://calendly.com/v-wong-geochat/30min)) |
+| Cost (as of November 2026) | [Annual user-type licenses](https://www.esri.com/en-us/arcgis/products/arcgis-online/buy) with set credits; prices from Esri sales; [21-day free trial](https://www.esri.com/en-us/arcgis/trial) | [Free tier](https://app.geochat.ai), no credit card; paid expert services ([book a call](https://calendly.com/v-wong-geochat/30min)) |
 | Getting started | ArcGIS Pro is desktop GIS "for advanced mapping, analytics, and data management" ([Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)); training through [Esri Academy](https://www.esri.com/training/) | Plain-language AI chat |
 | Outputs | Web maps, 3D scenes, dashboards, apps and stories ([ArcGIS Online](https://www.esri.com/en-us/arcgis/products/arcgis-online/overview)); Business Analyst infographics and reports | Interactive maps and chat answers; custom needs assessment reports as a paid expert service |
 
@@ -145,7 +145,7 @@ GeoChat AI fits when you need answers about healthcare supply and demand, and yo
 - **You want to ask, not build.** You type a question, then follow up, drill into ZIP codes or compare regions in the same chat.
 - **Your focus is access gaps.** Its interactive maps show supply-demand gaps, provider deserts and population health patterns.
 - **Your program matches its use cases.** The platform offers CHNA, personal care and home health, PACE, rural health, community health worker and workforce analysis use cases.
-- **You need a no-cost start.** The [free tier](https://atlas.geochat.ai) needs no credit card or license purchase.
+- **You need a no-cost start.** The [free tier](https://app.geochat.ai) needs no credit card or license purchase.
 - **You want expert help.** [Paid services](https://geochat.ai) cover expert review of AI findings, primary research and community interviews, custom needs assessment reports, methodology design and stakeholder presentation support.
 - **You need a map that doesn't exist yet.** Nonprofit organizations can request a new map, and those requests shape what gets added.
 

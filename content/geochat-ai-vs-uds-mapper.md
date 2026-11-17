@@ -62,7 +62,7 @@ HRSA says the Navigator [replaced the UDS Mapper as of March 2024](https://bphc.
 
 | | UDS Mapper (now GeoCare Navigator) | GeoChat AI |
 |---|---|---|
-| What it is | HRSA's Health Center Program mapping tool, which [replaced UDS Mapper in March 2024](https://bphc.hrsa.gov/funding/funding-opportunities/service-area-competition/faq) | AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies ([atlas.geochat.ai](https://atlas.geochat.ai)) |
+| What it is | HRSA's Health Center Program mapping tool, which [replaced UDS Mapper in March 2024](https://bphc.hrsa.gov/funding/funding-opportunities/service-area-competition/faq) | AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies ([app.geochat.ai](https://app.geochat.ai)) |
 | Who it's built for | ["Health centers and other stakeholders"](https://data.hrsa.gov/DataDownload/GeoCareNavigator/HCP-GeoCareNavigator-User-Guide.pdf) | Teams working on CHNAs, personal care and home health, PACE, rural health, community health worker programs and workforce analysis |
 | Access and cost (November 2026) | Public; [no login required](https://data.hrsa.gov/DataDownload/GeoCareNavigator/HCP-GeoCareNavigator-User-Guide.pdf); no fee listed | [Free tier, no credit card](https://geochat.ai); paid expert services |
 | Core data | [UDS 2025 patient counts by ZCTA; ACS 2020–2024](https://data.hrsa.gov/DataDownload/GeoCareNavigator/AboutTheData.pdf) | [ACS 2020–2024; NPPES October 2026 file](/methods); more than 100 federal and California layers |

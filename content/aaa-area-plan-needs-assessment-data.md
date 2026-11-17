@@ -224,7 +224,7 @@ Notes on the service files:
 - PACE enrollees must be [at least 55, live in a PACE service area, and need a nursing home level of care](https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options/other-medicare-health-plans/pace). CMS's MA Plan Directory lists [a contact for each PACE organization](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data).
 - The Eldercare Locator offers [an API for third-party developers, with registration, and a raw data file of its core tables](https://Eldercare.acl.gov/Public/Site_Utilities/API_Reg/API_Registration.aspx).
 
-To view these layers together, [GeoChat AI](https://atlas.geochat.ai) has a free tier with no credit card required.
+To view these layers together, [GeoChat AI](https://app.geochat.ai) has a free tier with no credit card required.
 
 Its layers include CMS nursing home, home health, hospice and PACE data, HRSA HPSAs, and [ACS 2020–2024 estimates](/methods). Sources are rebuilt by hand after each release, so check dates on our [methods page](/methods).
 
@@ -257,4 +257,4 @@ Its layers include CMS nursing home, home health, hospice and PACE data, HRSA HP
 4. Download the CMS, HRSA and Eldercare Locator files, and record each file's release date.
 5. Draft the living-alone and travel-time maps before the [30-day comment period](https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-C/part-1321/subpart-C/section-1321.65) opens.
 6. For county examples using ACS and HRSA data, see [healthcare access in 10 California counties](/california-county-healthcare-access-2026).
-7. To explore ZIP codes and compare regions in plain language before building your own GIS, try [GeoChat Atlas](https://atlas.geochat.ai); the platform is new.
+7. To explore ZIP codes and compare regions in plain language before building your own GIS, try [GeoChat Atlas](https://app.geochat.ai); the platform is new.

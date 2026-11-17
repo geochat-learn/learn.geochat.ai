@@ -4,14 +4,14 @@ description: "Answers about GeoChat AI: cost, data sources, provider counts, who
 slug: faq
 type: page
 show_cta: true
-updated: 2026-11-02
+updated: 2026-11-17
 faq:
   - q: "Is GeoChat AI free?"
     a: "Yes. GeoChat AI has a free tier with no credit card required. Expert services, such as expert review of AI findings and custom needs assessment reports, are paid."
   - q: "What data does GeoChat AI use?"
     a: "It uses public, open data. Population figures come from Census Bureau ACS 2020–2024 5-year estimates, with race and ethnicity from the 2020 Census. Provider counts come from the NPPES registry (October 2026 file). GeoChat Atlas also has more than 100 layers from CMS, HRSA, CDC and other public sources. See [data sources and methods](/methods/)."
   - q: "What is GeoChat Atlas?"
-    a: "GeoChat Atlas, at [atlas.geochat.ai](https://atlas.geochat.ai), is version 2 of GeoChat AI's mapping platform. It replaces the earlier app at app.geochat.ai."
+    a: "GeoChat Atlas, at [app.geochat.ai](https://app.geochat.ai), is version 2 of GeoChat AI's mapping platform. It replaced the earlier GeoChat AI app at the same address."
   - q: "Is GeoChat AI related to other projects called GeoChat?"
     a: "No. GeoChat AI, the healthcare access mapping platform at geochat.ai, is not affiliated with GeoChat, the remote-sensing vision-language model from MBZUAI, or GeoChat, the messaging tool from InSTEDD."
   - q: "How often is the data updated?"
@@ -29,9 +29,9 @@ faq:
   - q: "Can I use GeoChat AI in a hospital CHNA?"
     a: "You can use its maps as part of your analysis. The IRS requires the CHNA report to describe the data and other information used ([IRS](https://www.irs.gov/charities-non-profits/community-health-needs-assessment-for-charitable-hospital-organizations-section-501r3)). See the [CHNA access-gap mapping guide](/chna-access-gap-mapping-guide/)."
   - q: "Is GeoChat AI still being developed?"
-    a: "Yes. The platform is new. The current version, GeoChat Atlas at atlas.geochat.ai, is version 2."
+    a: "Yes. The platform is new. The current version, GeoChat Atlas at app.geochat.ai, is version 2."
   - q: "How does GeoChat AI compare with SparkMap, PolicyMap or ArcGIS?"
     a: "See the side-by-side comparisons: [vs SparkMap](/geochat-ai-vs-sparkmap/), [vs PolicyMap](/geochat-ai-vs-policymap/) and [vs ArcGIS](/geochat-ai-vs-arcgis/)."
 ---
 
-GeoChat AI is a free, AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. Its current version, GeoChat Atlas, is at [atlas.geochat.ai](https://atlas.geochat.ai).
+GeoChat AI is a free, AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. Its current version, GeoChat Atlas, is at [app.geochat.ai](https://app.geochat.ai).

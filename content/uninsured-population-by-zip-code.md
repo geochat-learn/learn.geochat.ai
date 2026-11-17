@@ -163,7 +163,7 @@ Expect some difference. SAHIE describes one year, while the 2020–2024 ACS pool
 
 ## Mapping ZCTA data in GeoChat Atlas
 
-[GeoChat AI](https://atlas.geochat.ai) is a free, AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas maps [ACS 2020–2024 5-year estimates](/methods) at county, ZIP code (ZCTA) and census tract level. Its free tier needs no credit card.
+[GeoChat AI](https://app.geochat.ai) is a free, AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas maps [ACS 2020–2024 5-year estimates](/methods) at county, ZIP code (ZCTA) and census tract level. Its free tier needs no credit card.
 
 As of November 2026, its AI chat can drill into ZIP codes and compare regions in plain language. The chat has no web search. It is instructed to report only figures from its own queries of the platform's datasets. That is an instruction to the model, not a guarantee. The platform is new; the current version is GeoChat Atlas (version 2). Check its [methods page](/methods) for which ACS tables and data versions are behind its layers.
 

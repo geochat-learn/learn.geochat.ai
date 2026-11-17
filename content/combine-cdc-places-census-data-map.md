@@ -184,7 +184,7 @@ To estimate how many adults a percentage represents, CDC's formula is [populatio
 
 ## Doing it without GIS software
 
-[GeoChat AI](https://atlas.geochat.ai) is a free, AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas has [CDC PLACES (2025 release) and ACS 2020–2024 layers](/methods). The platform covers all 50 states, DC and Puerto Rico at county, ZIP code (ZCTA) and census tract level. CDC PLACES itself covers only the [50 states and the District of Columbia](https://data.cdc.gov/d/yjkw-uj5s). Its free tier needs no credit card.
+[GeoChat AI](https://app.geochat.ai) is a free, AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas has [CDC PLACES (2025 release) and ACS 2020–2024 layers](/methods). The platform covers all 50 states, DC and Puerto Rico at county, ZIP code (ZCTA) and census tract level. CDC PLACES itself covers only the [50 states and the District of Columbia](https://data.cdc.gov/d/yjkw-uj5s). Its free tier needs no credit card.
 
 As of November 2026, its AI chat answers follow-up questions in plain language, such as drilling into ZIP codes or comparing regions. The chat has no web search. It is instructed to report only figures from its own queries of the platform's datasets. That is an instruction to the model, not a guarantee. The platform is new; the current version is GeoChat Atlas (version 2). There is no automatic refresh; sources are rebuilt by hand after each new release. GeoChat AI is not affiliated with GeoChat, the MBZUAI remote-sensing model, or GeoChat, the InSTEDD messaging tool.
 

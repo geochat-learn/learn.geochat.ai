@@ -4,7 +4,7 @@ description: "How GeoChat AI builds its maps: ACS 2020-2024 estimates, NPPES pro
 slug: methods
 type: page
 show_cta: true
-updated: 2026-11-02
+updated: 2026-11-17
 sources:
   - title: "American Community Survey (ACS), U.S. Census Bureau"
     url: "https://www.census.gov/programs-surveys/acs"
@@ -41,7 +41,7 @@ sources:
     accessed: 2026-11-02
 ---
 
-GeoChat AI's maps combine U.S. Census Bureau population estimates with provider records from NPPES, the national registry of National Provider Identifiers (NPIs). This page describes [GeoChat Atlas](https://atlas.geochat.ai), the current version of the platform. It lists each source, the version in use, how records are prepared and what the data cannot tell you.
+GeoChat AI's maps combine U.S. Census Bureau population estimates with provider records from NPPES, the national registry of National Provider Identifiers (NPIs). This page describes [GeoChat Atlas](https://app.geochat.ai), the current version of the platform. It lists each source, the version in use, how records are prepared and what the data cannot tell you.
 
 ## Data versions in use
 
@@ -138,7 +138,7 @@ For published or submitted assessments, GeoChat AI offers expert review of AI fi
 
 ## Platform status
 
-GeoChat AI is new. The current platform, [GeoChat Atlas](https://atlas.geochat.ai), is version 2 and replaces the earlier app at app.geochat.ai. A free account needs no payment details.
+GeoChat AI is new. The current platform, [GeoChat Atlas](https://app.geochat.ai), is version 2. It replaced the earlier GeoChat AI app at app.geochat.ai. A free account needs no payment details.
 
 ## Corrections
 
