@@ -14,7 +14,7 @@ faq:
   - q: "How do you estimate the number of people eligible for PACE in an area?"
     a: "Only the State administering agency makes the level-of-care finding ([§460.150(b)(2)](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-E/part-460/subpart-I)), so you can only map proxies. Analysts build one from ACS self-care difficulty (table B18106) and age (table B01001), then label it as a proxy, not a count of eligible people."
   - q: "Does GeoChat AI have PACE data?"
-    a: "Yes, as of November 2026. GeoChat Atlas includes PACE sites, PACE coverage by county and PACE service ZIP codes, plus estimates of people who may be eligible for PACE built from ACS self-care difficulty for ages 55 and over. These estimates are proxies: they do not check nursing-home level of care or PACE service areas."
+    a: "Yes, as of November 2026. GeoChat AI includes PACE sites, PACE coverage by county and PACE service ZIP codes, plus estimates of people who may be eligible for PACE built from ACS self-care difficulty for ages 55 and over. These estimates are proxies: they do not check nursing-home level of care or PACE service areas."
 sources:
   - title: "PACE | Medicare.gov"
     url: "https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options/other-medicare-health-plans/pace"
@@ -187,7 +187,7 @@ CMS, in consultation with the state, [may exclude an area already covered by ano
 3. Geocode each PACE center. NPA's [directory](https://www.npaonline.org/find-a-pace-program) lists only program names and cities, so get each center's street address from the program's own site first.
 4. Add CMS enrollment. The [CPSC file](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07) readme lists "National PACE" among its organization types. It reports enrollees by legal county of residence. Small counts are [shown as * (10 or fewer)](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/monthly-enrollment-contract/plan/state/county/monthly-enrollment-cpsc-2026-07).
 
-[GeoChat AI](https://app.geochat.ai) is one option for this step, with a free plan and no credit card required. As of November 2026, GeoChat Atlas includes PACE layers: PACE sites, PACE coverage by county and PACE service ZIP codes. The platform is new; the current version is GeoChat Atlas (version 2).
+[GeoChat AI](https://app.geochat.ai) is one option for this step, with a free plan and no credit card required. As of November 2026, it includes PACE layers: PACE sites, PACE coverage by county and PACE service ZIP codes. The platform is new.
 
 ### Step 2: Estimate the eligible pool by ZIP code or county
 
@@ -202,7 +202,7 @@ Only the State administering agency makes the level-of-care finding ([§460.150(
 4. Keep the margins of error with each estimate. See [ACS 5-year estimates](/glossary/acs-5-year-estimates).
 5. Add CMS dual counts as context, not as the denominator. The [MMCO snapshot](https://www.cms.gov/data-research/research/statistical-resources-dually-eligible-beneficiaries/mmco-statistical-analytic-reports) gives county counts by dual status through September 2025.
 
-As of November 2026, GeoChat Atlas also has estimates of people 55 and over who may be eligible for PACE. They are proxies built from ACS self-care difficulty and do not check nursing-home level of care or PACE service areas. Because [B18106](https://api.census.gov/data/2024/acs/acs5/groups/B18106.html) has no 55–64 group, GeoChat uses the apportioning option above. It scales the 35–64 self-care count by the 55–64 share of people aged 35–64. Its AI chat lets you drill into ZIP codes and compare regions.
+As of November 2026, GeoChat AI also has estimates of people 55 and over who may be eligible for PACE. They are proxies built from ACS self-care difficulty and do not check nursing-home level of care or PACE service areas. Because [B18106](https://api.census.gov/data/2024/acs/acs5/groups/B18106.html) has no 55–64 group, GeoChat uses the apportioning option above. It scales the 35–64 self-care count by the 55–64 share of people aged 35–64. Its AI chat lets you drill into ZIP codes and compare regions.
 
 ### Step 3: Find gaps outside current service areas
 
