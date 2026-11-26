@@ -218,7 +218,7 @@ The [NC Data Portal](https://ncdataportal.org/about/) comes from Region 4 NC Pub
 - **Geography:** drill into ZIP codes and compare regions.
 - **Cost:** a [free tier](https://app.geochat.ai) with no credit card required. Paid expert services cover expert review of AI findings, primary research and community interviews, custom needs assessment reports, methodology design and stakeholder presentation support.
 - **Use cases:** CHNAs, personal care and home health, PACE, rural health, community health worker programs and workforce analysis.
-- **Limitation:** provider counts are NPPES registrations, not full-time clinicians. The platform is new; the current version is GeoChat Atlas (version 2).
+- **Limitation:** provider counts are NPPES registrations, not full-time clinicians. The platform is new.
 
 ### WHO AccessMod (international)
 
