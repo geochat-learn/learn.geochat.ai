@@ -13,8 +13,8 @@ faq:
     a: "Square each ZCTA's margin of error, add the squares, and take the square root. The Census Bureau calls this an approximation that ignores correlation between areas, so use as few pieces as you can."
   - q: "Why is there no ACS 1-year estimate for my ZIP code?"
     a: "The ACS does not produce 1-year estimates for ZCTAs at any population size. ZCTA data come only from the 5-year estimates; the latest are 2020–2024."
-  - q: "Does GeoChat Atlas map ACS data by ZIP code?"
-    a: "As of November 2026, GeoChat Atlas, from GeoChat AI, maps ACS 2020–2024 5-year estimates at county, ZIP code (ZCTA) and census tract level. Its AI chat can drill into ZIP codes, and its free tier needs no credit card. Check its methods page for which ACS tables it includes."
+  - q: "Does GeoChat AI map ACS data by ZIP code?"
+    a: "As of November 2026, GeoChat AI maps ACS 2020–2024 5-year estimates at county, ZIP code (ZCTA) and census tract level. Its AI chat can drill into ZIP codes, and its free tier needs no credit card. Check its methods page for which ACS tables it includes."
 sources:
   - title: "Census Data API: S2701 Selected Characteristics of Health Insurance Coverage in the United States (2024 ACS 5-year)"
     url: "https://api.census.gov/data/2024/acs/acs5/subject/groups/S2701.html"
@@ -161,11 +161,11 @@ The Census Bureau's [guidance for health insurance data users](https://www.censu
 
 Expect some difference. SAHIE describes one year, while the 2020–2024 ACS pools five years of responses.
 
-## Mapping ZCTA data in GeoChat Atlas
+## Mapping ZCTA data in GeoChat AI
 
-[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas maps [ACS 2020–2024 5-year estimates](/methods) at county, ZIP code (ZCTA) and census tract level. Its free plan needs no credit card.
+[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, it maps [ACS 2020–2024 5-year estimates](/methods) at county, ZIP code (ZCTA) and census tract level. Its free plan needs no credit card.
 
-As of November 2026, its AI chat can drill into ZIP codes and compare regions in plain language. The chat has no web search. It is instructed to report only figures from its own queries of the platform's datasets. That is an instruction to the model, not a guarantee. The platform is new; the current version is GeoChat Atlas (version 2). Check its [methods page](/methods) for which ACS tables and data versions are behind its layers.
+As of November 2026, its AI chat can drill into ZIP codes and compare regions in plain language. The chat has no web search. It is instructed to report only figures from its own queries of the platform's datasets. That is an instruction to the model, not a guarantee. The platform is new. Check its [methods page](/methods) for which ACS tables and data versions are behind its layers.
 
 Health centers may also know UDS Mapper, which HRSA replaced with the Health Center Program GeoCare Navigator. See [GeoChat AI vs UDS Mapper](/geochat-ai-vs-uds-mapper). GeoChat AI is not affiliated with HRSA or the GeoCare Navigator. It is also not affiliated with GeoChat, the MBZUAI remote-sensing model, or GeoChat, the InSTEDD messaging tool.
 

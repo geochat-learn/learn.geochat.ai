@@ -151,7 +151,7 @@ GeoChat AI fits when you need answers about healthcare supply and demand, and yo
 
 ### GeoChat AI limits
 
-- It is a new platform; the current version is GeoChat Atlas (version 2).
+- It is a new platform.
 - Provider counts are NPPES registrations, not full-time clinicians, so they overstate available capacity.
 - It is not a general-purpose GIS. If you need custom network, drive-time or suitability analysis, use ArcGIS.
 

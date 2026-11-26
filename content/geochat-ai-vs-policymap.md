@@ -10,7 +10,7 @@ faq:
   - q: "Does PolicyMap have health data?"
     a: "Yes. Its [data sources](https://www.policymap.com/data/sources) include CDC PLACES, CDC BRFSS, HRSA, CMS, the NPPES NPI Registry and the Dartmouth Atlas. Its HRSA data includes tract-level Health Professional Shortage Areas."
   - q: "Can PolicyMap count providers by ZIP code?"
-    a: "Yes. PolicyMap's [NPPES dataset](https://policymap.com/data/sources/cms-national-plan-and-provider-enumeration-system-nppes-data) counts providers by specialty at the state and ZIP code level, last updated in April 2026. GeoChat Atlas also counts NPPES providers by county and ZIP code (October 2026 file)."
+    a: "Yes. PolicyMap's [NPPES dataset](https://policymap.com/data/sources/cms-national-plan-and-provider-enumeration-system-nppes-data) counts providers by specialty at the state and ZIP code level, last updated in April 2026. GeoChat AI also counts NPPES providers by county and ZIP code (October 2026 file)."
   - q: "Does PolicyMap use AI?"
     a: "PolicyMap's dashboards and reports can [add AI-generated summaries](https://www.policymap.com/products/mapping-analytics), and subscribers can ask its helpbot, Pam, for help using the platform."
   - q: "Is GeoChat AI a free alternative to PolicyMap?"
@@ -113,7 +113,7 @@ GeoChat AI fits when your question is specifically about healthcare supply and d
 
 ### GeoChat AI limits
 
-- It is a new platform; the current version is GeoChat Atlas (version 2).
+- It is a new platform.
 - Provider counts are NPPES registrations, not full-time clinicians, so they overstate available capacity.
 - Its data centers on healthcare supply and demand, built from public sources such as ACS and NPPES. PolicyMap's catalog is far broader.
 
