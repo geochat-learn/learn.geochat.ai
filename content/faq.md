@@ -9,9 +9,9 @@ faq:
   - q: "Is GeoChat AI free?"
     a: "GeoChat AI has a free plan, with no credit card required. Expert services, such as expert review of AI findings and custom needs assessment reports, are paid."
   - q: "What data does GeoChat AI use?"
-    a: "It uses public, open data. Population figures come from Census Bureau ACS 2020–2024 5-year estimates, with race and ethnicity from the 2020 Census. Provider counts come from the NPPES registry (October 2026 file). GeoChat Atlas also has more than 100 layers from CMS, HRSA, CDC and other public sources. See [data sources and methods](/methods/)."
-  - q: "What is GeoChat Atlas?"
-    a: "GeoChat Atlas, at [app.geochat.ai](https://app.geochat.ai), is version 2 of GeoChat AI's mapping platform. It replaced the earlier GeoChat AI app at the same address."
+    a: "It uses public, open data. Population figures come from Census Bureau ACS 2020–2024 5-year estimates, with race and ethnicity from the 2020 Census. Provider counts come from the NPPES registry (October 2026 file). GeoChat AI also has more than 100 layers from CMS, HRSA, CDC and other public sources. See [data sources and methods](/methods/)."
+  - q: "What was GeoChat Atlas?"
+    a: "GeoChat Atlas was the earlier name of the mapping platform at [app.geochat.ai](https://app.geochat.ai). It is now called GeoChat AI."
   - q: "Is GeoChat AI related to other projects called GeoChat?"
     a: "No. GeoChat AI, the healthcare access mapping platform at geochat.ai, is not affiliated with GeoChat, the remote-sensing vision-language model from MBZUAI, or GeoChat, the messaging tool from InSTEDD."
   - q: "How often is the data updated?"
@@ -23,15 +23,15 @@ faq:
   - q: "Who is GeoChat AI for?"
     a: "Teams working on community health needs assessments, rural health, PACE, personal care and home health, community health worker programs and workforce analysis."
   - q: "Can GeoChat AI count providers in an area?"
-    a: "Yes. GeoChat Atlas counts providers by county and ZIP code from the NPPES registry (October 2026 file). Counts are registrations, not full-time clinicians. See [data sources and methods](/methods/)."
+    a: "Yes. GeoChat AI counts providers by county and ZIP code from the NPPES registry (October 2026 file). Counts are registrations, not full-time clinicians. See [data sources and methods](/methods/)."
   - q: "What if the map I need isn't there?"
     a: "Nonprofit organizations can request a new map from inside the platform. Requests shape which maps are added next."
   - q: "Can I use GeoChat AI in a hospital CHNA?"
     a: "You can use its maps as part of your analysis. The IRS requires the CHNA report to describe the data and other information used ([IRS](https://www.irs.gov/charities-non-profits/community-health-needs-assessment-for-charitable-hospital-organizations-section-501r3)). See the [CHNA access-gap mapping guide](/chna-access-gap-mapping-guide/)."
   - q: "Is GeoChat AI still being developed?"
-    a: "Yes. The platform is new. The current version, GeoChat Atlas at app.geochat.ai, is version 2."
+    a: "Yes. The platform is new."
   - q: "How does GeoChat AI compare with SparkMap, PolicyMap or ArcGIS?"
     a: "See the side-by-side comparisons: [vs SparkMap](/geochat-ai-vs-sparkmap/), [vs PolicyMap](/geochat-ai-vs-policymap/) and [vs ArcGIS](/geochat-ai-vs-arcgis/)."
 ---
 
-GeoChat AI is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. It has a free plan, with no credit card required. Its current version, GeoChat Atlas, is at [app.geochat.ai](https://app.geochat.ai).
+GeoChat AI is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. It has a free plan, with no credit card required. It is at [app.geochat.ai](https://app.geochat.ai).
