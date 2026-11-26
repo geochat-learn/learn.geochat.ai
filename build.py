@@ -136,12 +136,10 @@ def app_ld():
     return {
         "@type": "SoftwareApplication",
         "@id": f"{APP_URL}/#app",
-        "name": "GeoChat Atlas",
-        "alternateName": "GeoChat AI",
+        "name": "GeoChat AI",
         "url": APP_URL,
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web browser",
-        "softwareVersion": "2",
         "description": "AI-powered mapping platform for community health assessments, needs assessments and healthcare supply-demand studies, with a free plan.",
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
         "disambiguatingDescription": "Healthcare access mapping platform for community health assessments; not affiliated with the MBZUAI GeoChat remote-sensing model or the InSTEDD GeoChat messaging tool.",
@@ -364,7 +362,7 @@ def build():
 
     # llms.txt: plain-text map for AI assistants
     ll = [f"# GeoChat AI Learn", "",
-          "> Guides, tool comparisons and definitions for mapping healthcare access gaps, from GeoChat AI, an AI-powered mapping platform for community health assessments and needs assessments. GeoChat AI has a free plan, and its current version is GeoChat Atlas version 2, at https://app.geochat.ai.", ""]
+          "> Guides, tool comparisons and definitions for mapping healthcare access gaps, from GeoChat AI, an AI-powered mapping platform for community health assessments and needs assessments. GeoChat AI has a free plan and is at https://app.geochat.ai.", ""]
     for t, label in SECTION_ORDER + [("page", "About these pages")]:
         items = [p for p in pages if p["type"] == t and p["slug"] not in ("", "index")]
         if not items:
