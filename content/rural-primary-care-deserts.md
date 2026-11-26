@@ -13,8 +13,8 @@ faq:
     a: "Not exactly. A HPSA is a formal HRSA designation with its own criteria and review. A desert analysis is your own measure of supply, population and distance, and it can find gaps that have no designation yet."
   - q: "Can I count primary care doctors with the NPPES file?"
     a: "Yes, but the result is a count of NPI registrations, not full-time clinicians. CMS says an NPI does not validate that a provider is licensed or credentialed, so label the result 'NPI-registered providers'."
-  - q: "Does GeoChat Atlas map HPSAs and provider counts for rural counties?"
-    a: "As of November 2026, GeoChat Atlas, from GeoChat AI, has HRSA layers for HPSAs, MUAs and health center sites. It also has NPPES provider counts by county and ZIP code. The counts are registrations, not full-time clinicians. It has a free plan, and no credit card is required."
+  - q: "Does GeoChat AI map HPSAs and provider counts for rural counties?"
+    a: "As of November 2026, GeoChat AI has HRSA layers for HPSAs, MUAs and health center sites. It also has NPPES provider counts by county and ZIP code. The counts are registrations, not full-time clinicians. It has a free plan, and no credit card is required."
 sources:
   - title: "Rural-Urban Commuting Area Codes, USDA Economic Research Service"
     url: "https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes"
@@ -217,11 +217,11 @@ For a quick check of single places, use [HPSA Find or Find Shortage Area by Addr
 
 Compare your flagged tracts with the HPSA layer. Tracts flagged by both are well supported. Tracts flagged only by you may be new gaps worth a closer look. HPSAs you did not flag may be population HPSAs, such as low-income groups, or facility HPSAs, such as Rural Health Clinics. Neither always means a lack of clinicians overall.
 
-## Mapping rural primary care gaps in GeoChat Atlas
+## Mapping rural primary care gaps in GeoChat AI
 
 [GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. Rural health is one of its use cases. It has a free plan, with no credit card required.
 
-As of November 2026, GeoChat Atlas has HRSA layers for HPSAs, MUAs and health center sites. It also has [NPPES provider counts](/methods) by county and ZIP code. Those counts are registrations, not full-time clinicians. Coverage is county, ZIP code (ZCTA) and census tract level for all 50 states, DC and Puerto Rico.
+As of November 2026, GeoChat AI has HRSA layers for HPSAs, MUAs and health center sites. It also has [NPPES provider counts](/methods) by county and ZIP code. Those counts are registrations, not full-time clinicians. Coverage is county, ZIP code (ZCTA) and census tract level for all 50 states, DC and Puerto Rico.
 
 Its AI chat answers follow-up questions in plain language, such as drilling into ZIP codes or comparing regions. The chat is instructed to report only figures from its own queries of the platform's datasets. That is an instruction to the model, not a guarantee. The platform is new, and data are rebuilt by hand after each source release; see [methods](/methods) for versions.
 
