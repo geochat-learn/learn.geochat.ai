@@ -14,7 +14,7 @@ faq:
   - q: "Can I compare PLACES estimates for census tracts with different age profiles?"
     a: "Use care. Tract and ZCTA estimates are crude prevalence only; CDC provides age-adjusted estimates only for counties and places. A tract with more older adults can show higher prevalence for that reason alone."
   - q: "Can I map PLACES and Census data together without GIS software?"
-    a: "Yes. As of November 2026, GeoChat Atlas, from GeoChat AI, has CDC PLACES (2025 release) and ACS 2020–2024 layers. Its free tier needs no credit card."
+    a: "Yes. As of November 2026, GeoChat AI has CDC PLACES (2025 release) and ACS 2020–2024 layers. Its free tier needs no credit card."
 sources:
   - title: "CDC PLACES: Frequently Asked Questions"
     url: "https://www.cdc.gov/places/faqs/index.html"
@@ -184,9 +184,9 @@ To estimate how many adults a percentage represents, CDC's formula is [populatio
 
 ## Doing it without GIS software
 
-[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas has [CDC PLACES (2025 release) and ACS 2020–2024 layers](/methods). The platform covers all 50 states, DC and Puerto Rico at county, ZIP code (ZCTA) and census tract level. CDC PLACES itself covers only the [50 states and the District of Columbia](https://data.cdc.gov/d/yjkw-uj5s). GeoChat AI's free plan needs no credit card.
+[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, it has [CDC PLACES (2025 release) and ACS 2020–2024 layers](/methods). The platform covers all 50 states, DC and Puerto Rico at county, ZIP code (ZCTA) and census tract level. CDC PLACES itself covers only the [50 states and the District of Columbia](https://data.cdc.gov/d/yjkw-uj5s). GeoChat AI's free plan needs no credit card.
 
-As of November 2026, its AI chat answers follow-up questions in plain language, such as drilling into ZIP codes or comparing regions. The chat has no web search. It is instructed to report only figures from its own queries of the platform's datasets. That is an instruction to the model, not a guarantee. The platform is new; the current version is GeoChat Atlas (version 2). There is no automatic refresh; sources are rebuilt by hand after each new release. GeoChat AI is not affiliated with GeoChat, the MBZUAI remote-sensing model, or GeoChat, the InSTEDD messaging tool.
+As of November 2026, its AI chat answers follow-up questions in plain language, such as drilling into ZIP codes or comparing regions. The chat has no web search. It is instructed to report only figures from its own queries of the platform's datasets. That is an instruction to the model, not a guarantee. The platform is new. There is no automatic refresh; sources are rebuilt by hand after each new release. GeoChat AI is not affiliated with GeoChat, the MBZUAI remote-sensing model, or GeoChat, the InSTEDD messaging tool.
 
 ## Next steps
 

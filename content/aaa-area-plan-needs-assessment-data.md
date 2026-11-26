@@ -257,4 +257,4 @@ Its layers include CMS nursing home, home health, hospice and PACE data, HRSA HP
 4. Download the CMS, HRSA and Eldercare Locator files, and record each file's release date.
 5. Draft the living-alone and travel-time maps before the [30-day comment period](https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-C/part-1321/subpart-C/section-1321.65) opens.
 6. For county examples using ACS and HRSA data, see [healthcare access in 10 California counties](/california-county-healthcare-access-2026).
-7. To explore ZIP codes and compare regions in plain language before building your own GIS, try [GeoChat Atlas](https://app.geochat.ai); the platform is new.
+7. To explore ZIP codes and compare regions in plain language before building your own GIS, try [GeoChat AI](https://app.geochat.ai); the platform is new.

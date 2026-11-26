@@ -13,8 +13,8 @@ faq:
     a: "Use ACS 5-year tables at the ZCTA level. S2701 gives the uninsured, S1701 poverty, C16002 or S1602 limited English speaking households, S1810 disability, S0101 age and B08201 households with no vehicle. The latest release covers 2020–2024."
   - q: "Can a hospital leave a low-income neighborhood out of its CHNA community?"
     a: "Generally no. A facility may not define its community to exclude medically underserved, low-income or minority populations living in the areas it draws patients from. The exception is populations outside its target patient population or principal functions. It also may not exclude groups its own method would otherwise include."
-  - q: "Can GeoChat Atlas show medically underserved areas in my service area?"
-    a: "As of November 2026, GeoChat Atlas, from GeoChat AI, includes HRSA HPSA and MUA layers. It also has CDC SVI 2022 and ACS 2020–2024 5-year estimates at county, ZIP code (ZCTA) and census tract level. Its free tier needs no credit card. Maps support the analysis; they do not replace the community input the IRS rule requires."
+  - q: "Can GeoChat AI show medically underserved areas in my service area?"
+    a: "As of November 2026, GeoChat AI includes HRSA HPSA and MUA layers. It also has CDC SVI 2022 and ACS 2020–2024 5-year estimates at county, ZIP code (ZCTA) and census tract level. Its free tier needs no credit card. Maps support the analysis; they do not replace the community input the IRS rule requires."
 sources:
   - title: "26 CFR § 1.501(r)-3 - Community health needs assessments (Cornell LII)"
     url: "https://www.law.cornell.edu/cfr/text/26/1.501%28r%29-3"
@@ -194,13 +194,13 @@ To combine MOEs for a sum, square each, add the squares and take the square root
 
 Show the MOE or CV beside any small-area figure you publish. A ZCTA that looks extreme may simply be small.
 
-## Mapping underserved populations in GeoChat Atlas
+## Mapping underserved populations in GeoChat AI
 
-[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, GeoChat Atlas maps [ACS 2020–2024 5-year estimates](/methods) at county, ZIP code (ZCTA) and census tract level. Its layers include HRSA HPSAs and MUAs, CDC SVI 2022 and the CDC PLACES 2025 release. Its free plan needs no credit card.
+[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. As of November 2026, it maps [ACS 2020–2024 5-year estimates](/methods) at county, ZIP code (ZCTA) and census tract level. Its layers include HRSA HPSAs and MUAs, CDC SVI 2022 and the CDC PLACES 2025 release. Its free plan needs no credit card.
 
 As of November 2026, its AI chat can drill into ZIP codes and compare regions in plain language. The chat has no web search. It is instructed to report only figures from its own queries of the platform's datasets. That is an instruction to the model, not a guarantee.
 
-Its provider counts come from the NPPES October 2026 file and are registrations, not full-time clinicians. The platform is new; the current version is GeoChat Atlas (version 2). Check its [methods page](/methods) for data versions.
+Its provider counts come from the NPPES October 2026 file and are registrations, not full-time clinicians. The platform is new. Check its [methods page](/methods) for data versions.
 
 GeoChat AI is not affiliated with HRSA or the GeoCare Navigator. It is also not affiliated with GeoChat, the MBZUAI remote-sensing model, or GeoChat, the InSTEDD messaging tool.
 
