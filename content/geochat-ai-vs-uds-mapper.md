@@ -121,7 +121,7 @@ The Navigator is purpose-built for health centers. It pairs UDS patient origin b
 
 GeoChat AI fits when your question reaches beyond health center patients.
 
-- **You need provider supply.** GeoChat Atlas counts providers by county and ZIP code from the [NPPES October 2026 file](/methods).
+- **You need provider supply.** GeoChat AI counts providers by county and ZIP code from the [NPPES October 2026 file](/methods).
 - **You need wider needs assessment context.** Its [100+ layers](/methods) include CMS hospitals, nursing homes, home health and hospice, plus CDC PLACES and the Social Vulnerability Index.
 - **You want to ask follow-up questions.** The AI chat lets you drill into ZIP codes and compare regions in the same conversation.
 - **Your program is not a health center.** Use cases include PACE, rural health, community health worker programs, home health and workforce analysis.
@@ -133,7 +133,7 @@ For a worked example, see [healthcare access in 10 California counties](/califor
 
 - It uses public data, not your organization's patient records. For HRSA's penetration and "not served" fields, use the Navigator.
 - It is not affiliated with HRSA or the GeoCare Navigator. Use the Navigator for HRSA application maps.
-- It is a new platform; the current version is GeoChat Atlas (version 2).
+- It is a new platform.
 - Provider counts are NPPES registrations, not full-time clinicians, so they may overstate available capacity.
 - There is no automatic refresh. Sources are rebuilt by hand after each new release.
 - The chat has no web search. It is instructed to report only figures from its own dataset queries; that is an instruction to the model, not a guarantee.
