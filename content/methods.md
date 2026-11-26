@@ -41,7 +41,7 @@ sources:
     accessed: 2026-11-02
 ---
 
-GeoChat AI's maps combine U.S. Census Bureau population estimates with provider records from NPPES, the national registry of National Provider Identifiers (NPIs). This page describes [GeoChat Atlas](https://app.geochat.ai), the current version of the platform. It lists each source, the version in use, how records are prepared and what the data cannot tell you.
+GeoChat AI's maps combine U.S. Census Bureau population estimates with provider records from NPPES, the national registry of National Provider Identifiers (NPIs). This page describes the current version of the platform, at [app.geochat.ai](https://app.geochat.ai). It lists each source, the version in use, how records are prepared and what the data cannot tell you.
 
 ## Data versions in use
 
@@ -59,7 +59,7 @@ There is no automatic refresh. Each source is rebuilt by hand after its publishe
 
 ## Other data layers
 
-GeoChat Atlas has more than 100 data layers. Beyond the core sources above, they include:
+GeoChat AI has more than 100 data layers. Beyond the core sources above, they include:
 
 | Publisher | Examples | Data dates |
 |---|---|---|
@@ -138,7 +138,7 @@ For published or submitted assessments, GeoChat AI offers expert review of AI fi
 
 ## Platform status
 
-GeoChat AI is new. The current platform, [GeoChat Atlas](https://app.geochat.ai), is version 2. It replaced the earlier GeoChat AI app at app.geochat.ai. A free account needs no payment details.
+GeoChat AI is new. The current version, at [app.geochat.ai](https://app.geochat.ai), replaced the earlier GeoChat AI app at the same address. A free account needs no payment details.
 
 ## Corrections
 

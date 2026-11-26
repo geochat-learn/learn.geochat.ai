@@ -14,7 +14,7 @@ faq:
   - q: "Which geography should a hospital use to map its CHNA community?"
     a: "Patient-origin ZIP codes, converted to ZCTAs, are a common starting point, since the Census Bureau publishes ACS data for ZCTAs. Census tracts show more detail inside a ZIP code, and counties match county-level sources such as County Health Rankings and AHRF. HPSAs can be geographic areas, population groups or facilities, and their boundaries may not match your service area, so overlay them."
   - q: "Can GeoChat AI count providers in my hospital's service area?"
-    a: "Yes, by county and ZIP code, as of November 2026. GeoChat Atlas counts providers from the NPPES registry (October 2026 file); counts are registrations, not full-time clinicians. Its maps also show supply-demand gaps and provider deserts built from public data such as ACS and NPPES."
+    a: "Yes, by county and ZIP code, as of November 2026. GeoChat AI counts providers from the NPPES registry (October 2026 file); counts are registrations, not full-time clinicians. Its maps also show supply-demand gaps and provider deserts built from public data such as ACS and NPPES."
 sources:
   - title: "IRS: Consequences of non-compliance with Section 501(r)"
     url: "https://www.irs.gov/charities-non-profits/consequence-of-non-compliance-with-section-501r"
@@ -149,7 +149,7 @@ Label NPPES counts as headcounts, because HPSA criteria use [full-time-equivalen
 
 [GeoChat AI](https://app.geochat.ai) is one option for a first pass. It has a free plan with no credit card required. As of November 2026, it maps supply-demand gaps and provider deserts from public data such as ACS and NPPES. Its AI chat lets you drill into ZIP codes.
 
-Its provider counts are NPPES registrations, not full-time clinicians, and the platform is new: the current version is GeoChat Atlas (version 2). GeoChat AI is not affiliated with GeoChat, the MBZUAI remote-sensing model, or GeoChat, the InSTEDD messaging tool.
+Its provider counts are NPPES registrations, not full-time clinicians, and the platform is new. GeoChat AI is not affiliated with GeoChat, the MBZUAI remote-sensing model, or GeoChat, the InSTEDD messaging tool.
 
 ### Step 4: Measure access
 
