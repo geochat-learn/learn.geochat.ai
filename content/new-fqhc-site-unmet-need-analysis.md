@@ -13,8 +13,8 @@ faq:
     a: "Select the ZIP codes in HRSA's Unmet Need Score Map Tool, which converts them to ZCTAs and shows the service area score. HRSA computes it as the population-weighted average of each ZCTA's UNS."
   - q: "Does the GeoCare Navigator show the Unmet Need Score?"
     a: "No. The GeoCare Navigator user guide says the tool does not currently include the UNS and points to the separate Unmet Need Score Map Tool. Use the Navigator for penetration, low-income residents not served and nearby sites."
-  - q: "Can GeoChat Atlas help with a new site analysis?"
-    a: "As of November 2026, GeoChat Atlas, from GeoChat AI, maps supply-demand gaps by county, ZIP code and census tract. Its HRSA layers include HPSAs, MUAs, health center sites and UDS 2025. For any Unmet Need Score you report to HRSA, use HRSA's own Unmet Need Score Map Tool."
+  - q: "Can GeoChat AI help with a new site analysis?"
+    a: "As of November 2026, GeoChat AI maps supply-demand gaps by county, ZIP code and census tract. Its HRSA layers include HPSAs, MUAs, health center sites and UDS 2025. For any Unmet Need Score you report to HRSA, use HRSA's own Unmet Need Score Map Tool."
 sources:
   - title: "Unmet Need Score Map Tool, HRSA Data Warehouse"
     url: "https://data.hrsa.gov/topics/health-centers/sanam"
@@ -130,7 +130,7 @@ If you apply in a Service Area Competition as a new or competing supplement appl
 
 GeoChat AI is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. It is not affiliated with HRSA or the GeoCare Navigator. It is also not affiliated with GeoChat, the MBZUAI remote-sensing model, or GeoChat, the InSTEDD messaging tool.
 
-As of November 2026, its current version, [GeoChat Atlas](https://app.geochat.ai) (version 2), has more than 100 layers. They include HRSA HPSAs, MUAs, health center sites and UDS 2025, plus CDC PLACES, CDC SVI and CMS facility layers. It maps supply-demand gaps at county, ZIP code (ZCTA) and census tract level. Its plain-language AI chat can drill into ZIP codes and compare regions.
+As of November 2026, [GeoChat AI](https://app.geochat.ai) has more than 100 layers. They include HRSA HPSAs, MUAs, health center sites and UDS 2025, plus CDC PLACES, CDC SVI and CMS facility layers. It maps supply-demand gaps at county, ZIP code (ZCTA) and census tract level. Its plain-language AI chat can drill into ZIP codes and compare regions.
 
 Limits to keep in mind:
 
