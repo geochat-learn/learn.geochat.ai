@@ -86,4 +86,4 @@ For state-level reports and profiles, see CMS's [dual-eligible data resources](h
 - **Use full duals for long-term care planning.** Medicaid may cover nursing home care, personal care and home- and community-based services ([MLN fact sheet](https://www.cms.gov/files/document/beneficiaries-dually-eligible-medicare-medicaid.pdf)). Pair counts with [home care supply](/map-home-care-provider-shortages) or a [PACE expansion map](/pace-expansion-mapping).
 - **Add age data separately.** For [AAA area plans](/aaa-area-plan-needs-assessment-data), combine county dual counts with [ACS 5-year](/glossary/acs-5-year-estimates) age data.
 
-[GeoChat Atlas](https://app.geochat.ai) is GeoChat AI's healthcare access mapping platform. As of November 2026, it has CMS Medicare, Medicare Advantage and PACE layers.
+[GeoChat AI](https://app.geochat.ai) is a healthcare access mapping platform. As of November 2026, it has CMS Medicare, Medicare Advantage and PACE layers.
