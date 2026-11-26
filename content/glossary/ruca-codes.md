@@ -77,4 +77,4 @@ For ZIP-coded data, use the ZIP code file, and read [why ZIP codes and ZCTAs dif
 - **Fewer small town cores in 2020:** a 2020 urban area needs [at least 5,000 people or 2,000 housing units](https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural.html). The 2010 minimum was [2,500 residents](https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes/documentation).
 - **Commuting data:** the 2017–21 flows [overlap the COVID-19 pandemic](https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes/documentation). Nearly 25% of workers had unclear workplaces and were omitted.
 
-GeoChat AI's healthcare access mapping platform, [GeoChat Atlas](https://app.geochat.ai), lists rural health as a use case (as of November 2026). It maps county, ZIP code and tract data.
+[GeoChat AI](https://app.geochat.ai), a healthcare access mapping platform, lists rural health as a use case (as of November 2026). It maps county, ZIP code and tract data.
