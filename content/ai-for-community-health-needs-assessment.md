@@ -172,9 +172,9 @@ If you can't find the figure in the publisher's file, drop it.
 
 ## Where GeoChat AI fits
 
-[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. Its current version is GeoChat Atlas (version 2), for healthcare access mapping. Community health needs assessments are one of its listed use cases. It has a free plan with no credit card required.
+[GeoChat AI](https://app.geochat.ai) is an AI-powered mapping platform for community health assessments, community needs assessments and healthcare supply-demand studies. Community health needs assessments are one of its listed use cases. It has a free plan with no credit card required.
 
-As of November 2026, GeoChat Atlas has interactive maps of supply-demand gaps and provider deserts. It includes [ACS 2020–2024, CDC PLACES (2025 release), HRSA and CMS layers](/methods). Provider counts come from NPPES and are registrations, not full-time clinicians.
+As of November 2026, GeoChat AI has interactive maps of supply-demand gaps and provider deserts. It includes [ACS 2020–2024, CDC PLACES (2025 release), HRSA and CMS layers](/methods). Provider counts come from NPPES and are registrations, not full-time clinicians.
 
 As of November 2026, its plain-language AI chat answers follow-up questions, drills into ZIP codes and compares regions. The chat has no web search. It is instructed to report only figures returned by its own queries of the platform's datasets. That is an instruction to the model, not a guarantee, so check figures as above.
 
